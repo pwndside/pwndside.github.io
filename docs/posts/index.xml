@@ -11,14 +11,32 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Jun 2023 11:30:03 +0000</lastBuildDate><atom:link href="https://pwndside.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jun 2023 23:52:47 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bashed</title>
+      <link>https://pwndside.github.io/posts/bashed-htb/</link>
+      <pubDate>Sat, 24 Jun 2023 23:52:47 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/bashed-htb/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+    <item>
+      <title>Shocker</title>
+      <link>https://pwndside.github.io/posts/shocker-htb/</link>
+      <pubDate>Sat, 24 Jun 2023 23:12:03 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/shocker-htb/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
     <item>
       <title>Lame</title>
       <link>https://pwndside.github.io/posts/lame-htb/</link>
       <pubDate>Sat, 24 Jun 2023 11:30:03 +0000</pubDate>
       
       <guid>https://pwndside.github.io/posts/lame-htb/</guid>
-      <description>Desc Text.</description>
+      <description>This is a friendly Linux machine with a vulnerable Samba service that can be exploited.</description>
     </item>
     
   </channel>
