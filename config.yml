@@ -61,7 +61,7 @@ params:
     enabled: true # needs to be explicitly set
     title: PwndSide
     subtitle: "Ayman's Hacking Journey"
-    imageUrl: "https://i.pinimg.com/originals/7c/cf/bf/7ccfbfee8b719c9a960afb4d9a6a380c.jpg"
+    imageUrl: "/profile-icon.jpg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: profile-icon
