@@ -1,9 +1,12 @@
 ---
-title: "{{ replace .TranslationBaseName "" " " | title }}"
-date: {{ .Date }}
+title: "Lame"
+date: 2023-06-24T11:30:03+00:00
+# weight: 1
+# aliases: ["/first"]
 tags: [""]
 categories: ["hackthebox"]
 author: "Ayman Boulaich"
+# author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
 draft: false
@@ -32,4 +35,4 @@ editPost:
     URL: "https://github.com/pwndside/pwndside.github.io/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
----
+--- 

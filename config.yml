@@ -1,5 +1,5 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "https://pwndside.github.io/"
+title: PwndSide
 paginate: 5
 theme: PaperMod
 
@@ -16,10 +16,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: PwndSide
+  description: "PwndSide description"
+  keywords: [Blog, Portfolio, HackTheBox, CTF, PwndSide]
+  author: Ayman Boulaich
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -52,19 +52,19 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "PwndSide"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true # needs to be explicitly set
+    title: PwndSide
+    subtitle: "Ayman's Hacking Journey"
+    imageUrl: "https://i.pinimg.com/originals/7c/cf/bf/7ccfbfee8b719c9a960afb4d9a6a380c.jpg"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: profile-icon
     buttons:
       - name: Posts
         url: posts
@@ -73,16 +73,16 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Welcome to PwndSide! \U0001F44B"
+    Content: "Here you will find a collection of my own write-ups for various machines and CTF challenges. Whether you're a beginner looking to learn more about cybersecurity and ethical hacking, or a seasoned professional seeking to sharpen your skills, our blog has something for you. Stay tuned for regular updates and new challenges, and be sure to follow us on social media for the latest news and updates.\n\n **Happy hacking!** \U0001F604"
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/"
+      url: "https://twitter.com/pwndside"
     - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://stackoverflow.com/pwndside"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/pwndside"
 
   analytics:
     google:
@@ -98,7 +98,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/pwndside/pwndside.github.io/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -114,17 +114,17 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: hackthebox
+      name: HackTheBox
+      url: /categories/hackthebox
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: ctf
+      name: CTF's
+      url: /categories/ctf
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: whoami
+      name: whoami
+      url: /about/whoami/
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

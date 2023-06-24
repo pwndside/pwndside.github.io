@@ -1,15 +1,12 @@
 ---
-title: "{{ replace .TranslationBaseName "" " " | title }}"
-date: {{ .Date }}
-tags: [""]
-categories: ["hackthebox"]
+title: "whoami"
+date: 2023-06-24T11:30:03+00:00
 author: "Ayman Boulaich"
 showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -33,3 +30,4 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+

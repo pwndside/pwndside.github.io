@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>PwndSide</title>
-    <link>https://pwndside.github.io/</link>
-    <description>Recent content on PwndSide</description>
+    <title>hackthebox on PwndSide</title>
+    <link>https://pwndside.github.io/categories/hackthebox/</link>
+    <description>Recent content in hackthebox on PwndSide</description>
     <image>
       <title>PwndSide</title>
       <url>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Jun 2023 11:30:03 +0000</lastBuildDate><atom:link href="https://pwndside.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jun 2023 11:30:03 +0000</lastBuildDate><atom:link href="https://pwndside.github.io/categories/hackthebox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lame</title>
       <link>https://pwndside.github.io/posts/lame-htb/</link>
@@ -19,15 +19,6 @@
       
       <guid>https://pwndside.github.io/posts/lame-htb/</guid>
       <description>Desc Text.</description>
-    </item>
-    
-    <item>
-      <title>whoami</title>
-      <link>https://pwndside.github.io/about/whoami/</link>
-      <pubDate>Sat, 24 Jun 2023 11:30:03 +0000</pubDate>
-      
-      <guid>https://pwndside.github.io/about/whoami/</guid>
-      <description></description>
     </item>
     
   </channel>
