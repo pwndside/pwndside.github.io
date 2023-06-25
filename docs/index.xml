@@ -11,14 +11,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Jun 2023 23:52:47 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jun 2023 00:50:22 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Legacy</title>
+      <link>https://pwndside.github.io/posts/legacy-htb/</link>
+      <pubDate>Mon, 26 Jun 2023 00:50:22 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/legacy-htb/</guid>
+      <description>A windows room that has vulnerable samba service running.</description>
+    </item>
+    
     <item>
       <title>Bashed</title>
       <link>https://pwndside.github.io/posts/bashed-htb/</link>
       <pubDate>Sat, 24 Jun 2023 23:52:47 +0200</pubDate>
       
       <guid>https://pwndside.github.io/posts/bashed-htb/</guid>
-      <description>Desc Text.</description>
+      <description>Room Information Room name: Bashed Difficulty level: Easy Room link: https://app.hackthebox.com/machines/Bashed Tools Used Nmap Gobuster Nikto Port Scanning In the port scan we can see that the only service running is a web server.
+Enumeration If we visit the website there are only one article with a web reverse shell information called phpbash, and a url to the github project.
+In the url we can find some useful information like how works, this shell removes the necessity of do a traditional reverse shell.</description>
     </item>
     
     <item>
@@ -27,7 +38,7 @@
       <pubDate>Sat, 24 Jun 2023 23:12:03 +0200</pubDate>
       
       <guid>https://pwndside.github.io/posts/shocker-htb/</guid>
-      <description>Desc Text.</description>
+      <description>Linux machine with Shellshock bash remote code execution vulnerability.</description>
     </item>
     
     <item>
