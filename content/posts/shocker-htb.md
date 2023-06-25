@@ -1,7 +1,7 @@
 ---
 title: "Shocker"
 date: 2023-06-24T23:12:03+02:00
-tags: [""]
+tags: ["privesc","web","linux"]
 categories: ["hackthebox"]
 author: "Ayman Boulaich"
 showToc: true
@@ -9,7 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
+description: "Linux machine with Shellshock bash remote code execution vulnerability."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
