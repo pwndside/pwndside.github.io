@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Jun 2023 12:51:31 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jul 2023 17:35:59 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devel</title>
+      <link>https://pwndside.github.io/posts/devel-htb/</link>
+      <pubDate>Mon, 03 Jul 2023 17:35:59 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/devel-htb/</guid>
+      <description>This room is a windows room with a http service which runs iis7 web server which content is able at a misconfigured ftp service.</description>
+    </item>
+    
     <item>
       <title>Blue</title>
       <link>https://pwndside.github.io/posts/blue-htb/</link>
