@@ -11,20 +11,20 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Jul 2023 17:35:59 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jul 2023 13:02:46 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ftp</title>
-      <link>https://pwndside.github.io/tags/ftp/</link>
-      <pubDate>Mon, 03 Jul 2023 17:35:59 +0200</pubDate>
+      <title>linux</title>
+      <link>https://pwndside.github.io/tags/linux/</link>
+      <pubDate>Tue, 04 Jul 2023 13:02:46 +0200</pubDate>
       
-      <guid>https://pwndside.github.io/tags/ftp/</guid>
+      <guid>https://pwndside.github.io/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privesc</title>
       <link>https://pwndside.github.io/tags/privesc/</link>
-      <pubDate>Mon, 03 Jul 2023 17:35:59 +0200</pubDate>
+      <pubDate>Tue, 04 Jul 2023 13:02:46 +0200</pubDate>
       
       <guid>https://pwndside.github.io/tags/privesc/</guid>
       <description></description>
@@ -33,9 +33,18 @@
     <item>
       <title>web</title>
       <link>https://pwndside.github.io/tags/web/</link>
-      <pubDate>Mon, 03 Jul 2023 17:35:59 +0200</pubDate>
+      <pubDate>Tue, 04 Jul 2023 13:02:46 +0200</pubDate>
       
       <guid>https://pwndside.github.io/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ftp</title>
+      <link>https://pwndside.github.io/tags/ftp/</link>
+      <pubDate>Mon, 03 Jul 2023 17:35:59 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/tags/ftp/</guid>
       <description></description>
     </item>
     
@@ -54,15 +63,6 @@
       <pubDate>Mon, 26 Jun 2023 12:51:31 +0200</pubDate>
       
       <guid>https://pwndside.github.io/tags/smb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://pwndside.github.io/tags/linux/</link>
-      <pubDate>Sat, 24 Jun 2023 23:52:47 +0200</pubDate>
-      
-      <guid>https://pwndside.github.io/tags/linux/</guid>
       <description></description>
     </item>
     

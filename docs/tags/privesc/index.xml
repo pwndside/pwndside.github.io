@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Jul 2023 17:35:59 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/privesc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jul 2023 13:02:46 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/privesc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nibbles</title>
+      <link>https://pwndside.github.io/posts/nibbles-htb/</link>
+      <pubDate>Tue, 04 Jul 2023 13:02:46 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/nibbles-htb/</guid>
+      <description>This room is a Linux environment running a website powered by the Nibbleblog engine, and the version we are using has a shell vulnerability.</description>
+    </item>
+    
     <item>
       <title>Devel</title>
       <link>https://pwndside.github.io/posts/devel-htb/</link>
