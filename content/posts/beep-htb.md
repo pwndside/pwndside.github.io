@@ -137,17 +137,17 @@ Service Info: Hosts:  beep.localdomain, 127.0.0.1, example.com, localhost; OS: U
 
 We have a bunch of ports in this machine let’s see what we are handling:
 
-First we have the port 22 for ssh service, maybe interesting with a valid credentials
+First we have **the port 22** for ssh service, maybe interesting with a valid credentials
 
-The ports 80, 443 and 10000 are running web services the first one redirects to the 443 port so we only have two web services. We can observe that the linux machine is a CentOS
+**The ports 80, 443 and 10000** are running web services the first one redirects to the 443 port so we only have two web services. We can observe that the linux machine is a CentOS
 
-The ports 25, 110, 143 are running mail services and the ports 993, 995 are mail services too but from a open source called Cyrus, his version is shown at the port 4190 as Cyrus timsieved 2.3.7.
+**The ports 25, 110, 143** are running mail services and the ports 993, 995 are mail services too but from a open source called Cyrus, his version is shown at **the port 4190** as **Cyrus timsieved 2.3.7.**
 
-The port 4559 is running a FAX service named HylaFAX 4.3.10
+**The port 4559** is running a FAX service named **HylaFAX 4.3.10**
 
-Asterix is open source Call Manager running at port 5038
+**Asterix** is open source Call Manager running at **port 5038**
 
-The only port that I don’t find any info it’s the port 4445 which runs the upnotifyp? service.
+The only port that I don’t find any info it’s **the port 4445** which runs the **upnotifyp?** service.
 
 ## Enumeration
 
