@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Jun 2023 12:51:31 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/smb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Jul 2023 17:25:24 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/smb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sniper</title>
+      <link>https://pwndside.github.io/posts/sniper-htb/</link>
+      <pubDate>Mon, 17 Jul 2023 17:25:24 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/sniper-htb/</guid>
+      <description>Windows machine with a website which has a RFI vulnerability. The initial privilege escalation occurred due to a typical case of credential reuse. The second privesc revolved around maliciously manipulating a .chm file in order to achieve code execution with administrator privileges.</description>
+    </item>
+    
     <item>
       <title>Blue</title>
       <link>https://pwndside.github.io/posts/blue-htb/</link>
