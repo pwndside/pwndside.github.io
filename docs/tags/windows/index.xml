@@ -18,7 +18,7 @@
       <pubDate>Thu, 20 Jul 2023 23:36:20 +0200</pubDate>
       
       <guid>https://pwndside.github.io/posts/optimum-htb/</guid>
-      <description>Desc Text.</description>
+      <description>A windows friendly machine with a Remote Command Injection which allow us to gain access to the user and a easy privesc with the MS16-032 exploit which is a unpatched kernel vulnerability.</description>
     </item>
     
     <item>
