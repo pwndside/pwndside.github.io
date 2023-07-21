@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Jul 2023 23:36:20 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 17:19:10 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bastard</title>
+      <link>https://pwndside.github.io/posts/bastard-htb/</link>
+      <pubDate>Fri, 21 Jul 2023 17:19:10 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/bastard-htb/</guid>
+      <description>Windows machine with a webpage powered by Drupal which was our first entry point thanks to CVE-2018-7600 which gives use RCE. For privesc I exploited the MS10-059 which is a unpatched kernel vulnerability.</description>
+    </item>
+    
     <item>
       <title>Optimum</title>
       <link>https://pwndside.github.io/posts/optimum-htb/</link>

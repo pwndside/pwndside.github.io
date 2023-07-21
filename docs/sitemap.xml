@@ -2,31 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pwndside.github.io/posts/bastard-htb/</loc>
+    <lastmod>2023-07-21T17:19:10+02:00</lastmod>
+  </url><url>
     <loc>https://pwndside.github.io/categories/</loc>
-    <lastmod>2023-07-20T23:36:20+02:00</lastmod>
+    <lastmod>2023-07-21T17:19:10+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/categories/hackthebox/</loc>
-    <lastmod>2023-07-20T23:36:20+02:00</lastmod>
-  </url><url>
-    <loc>https://pwndside.github.io/posts/optimum-htb/</loc>
-    <lastmod>2023-07-20T23:36:20+02:00</lastmod>
+    <lastmod>2023-07-21T17:19:10+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/posts/</loc>
-    <lastmod>2023-07-20T23:36:20+02:00</lastmod>
+    <lastmod>2023-07-21T17:19:10+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/tags/privesc/</loc>
-    <lastmod>2023-07-20T23:36:20+02:00</lastmod>
+    <lastmod>2023-07-21T17:19:10+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/</loc>
-    <lastmod>2023-07-20T23:36:20+02:00</lastmod>
+    <lastmod>2023-07-21T17:19:10+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/tags/</loc>
-    <lastmod>2023-07-20T23:36:20+02:00</lastmod>
+    <lastmod>2023-07-21T17:19:10+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/tags/web/</loc>
-    <lastmod>2023-07-20T23:36:20+02:00</lastmod>
+    <lastmod>2023-07-21T17:19:10+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/tags/windows/</loc>
+    <lastmod>2023-07-21T17:19:10+02:00</lastmod>
+  </url><url>
+    <loc>https://pwndside.github.io/posts/optimum-htb/</loc>
     <lastmod>2023-07-20T23:36:20+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/tags/smb/</loc>
