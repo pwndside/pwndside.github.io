@@ -51,6 +51,10 @@ editPost:
 ## Port Scanning
 
 ```bash
+sudo nmap $IP -n -Pn -vvv --min-rate 5000
+```
+
+```bash
 PORT   STATE SERVICE REASON          VERSION
 80/tcp open  http    syn-ack ttl 127 Microsoft IIS httpd 6.0
 |_http-server-header: Microsoft-IIS/6.0
@@ -86,7 +90,49 @@ Now let’s see if what type of files let us the dav to upload with the PUT opti
 There is a tool called **davtest** which help us to perform a fast scan to see what are the allowed file extensions.
 
 ```bash
+********************************************************
+ Testing DAV connection
+OPEN            SUCCEED:                http://10.10.10.15
+********************************************************
+NOTE    Random string for this session: l8Qkwc
+********************************************************
+ Creating directory
+MKCOL           SUCCEED:                Created http://10.10.10.15/DavTestDir_l8Qkwc
+********************************************************
+ Sending test files
+PUT     txt     SUCCEED:        http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.txt
+PUT     jsp     SUCCEED:        http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.jsp
+PUT     asp     FAIL
+PUT     php     SUCCEED:        http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.php
+PUT     cgi     FAIL
+PUT     aspx    FAIL
+PUT     pl      SUCCEED:        http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.pl
+PUT     cfm     SUCCEED:        http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.cfm
+PUT     shtml   FAIL
+PUT     jhtml   SUCCEED:        http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.jhtml
+PUT     html    SUCCEED:        http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.html
+********************************************************
+ Checking for test file execution
+EXEC    txt     SUCCEED:        http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.txt
+EXEC    jsp     FAIL
+EXEC    php     FAIL
+EXEC    pl      FAIL
+EXEC    cfm     FAIL
+EXEC    jhtml   FAIL
+EXEC    html    SUCCEED:        http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.html
 
+********************************************************
+/usr/bin/davtest Summary:
+Created: http://10.10.10.15/DavTestDir_l8Qkwc
+PUT File: http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.txt
+PUT File: http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.jsp
+PUT File: http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.php
+PUT File: http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.pl
+PUT File: http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.cfm
+PUT File: http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.jhtml
+PUT File: http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.html
+Executes: http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.txt
+Executes: http://10.10.10.15/DavTestDir_l8Qkwc/davtest_l8Qkwc.html
 ```
 
 As we have **IIS**, it’s so probable is running aspx files, but the scan results shows that this type of files are not allowed with **PUT** option. Maybe we can put a file with an allowed extension to after that change his extension with **MOVE** option to aspx.
