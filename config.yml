@@ -80,7 +80,7 @@ params:
     - name: twitter
       url: "https://twitter.com/pwndside"
     - name: stackoverflow
-      url: "https://stackoverflow.com/pwndside"
+      url: "https://stackoverflow.com/users/22277811/ayman-boulaich"
     - name: github
       url: "https://github.com/pwndside"
 
