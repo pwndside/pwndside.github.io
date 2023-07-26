@@ -9,7 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Windows machine which has webDAV which allow us to put a reverse shell to gain RCE. We have privesc thanks to the SeImpersonatePrivilege which can be exploited with tools like churrasco or JuicyPotato."
+description: "Windows machine which has webDAV which allow us to send a reverse shell to gain RCE. We have privesc thanks to the SeImpersonatePrivilege which can be exploited with tools like churrasco or JuicyPotato."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -154,7 +154,7 @@ Once uploaded the reverse-shell.html with PUT option, now let’s change the ext
 
 ![Untitled](/HTB/granny-4.png)
 
-Now only need execute the reverse shell and put a listener to perform the attack.
+Now only need execute the reverse shell and set a listener to perform the attack.
 
 ```bash
 nc -lv 4444
@@ -233,7 +233,7 @@ Before the run we need to put a command as an argument between two quotation mar
 
 ![Untitled](/HTB/granny-10.png)
 
-Now only rests to put a nc listener and send a reverse shell with nc, I put a smbserver.py on the nc.exe directory in order to execute the next payload to have a reverse shell.
+Now only rests to set a nc listener and send a reverse shell with nc, I put a smbserver.py on the nc.exe directory in order to execute the next payload to have a reverse shell.
 
 ```powershell
 nc -lv 4445
