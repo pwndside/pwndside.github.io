@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Jul 2023 13:53:53 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Aug 2023 19:04:20 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solidstate</title>
+      <link>https://pwndside.github.io/posts/solidstate-htb/</link>
+      <pubDate>Tue, 15 Aug 2023 19:04:20 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/solidstate-htb/</guid>
+      <description>Linux machine with three mail services and a admin tool to manage them, we take advantage of the default credentials of the tool to get email users and thanks to the credentials leak in one email we obtained access as user. We got the privesc thanks to a cronjob.</description>
+    </item>
+    
     <item>
       <title>Cronos</title>
       <link>https://pwndside.github.io/posts/cronos-htb/</link>
