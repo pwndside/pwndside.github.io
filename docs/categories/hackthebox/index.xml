@@ -11,7 +11,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Aug 2023 19:04:20 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/categories/hackthebox/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Aug 2023 12:14:24 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/categories/hackthebox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Node</title>
+      <link>https://pwndside.github.io/posts/node-htb/</link>
+      <pubDate>Tue, 22 Aug 2023 12:14:24 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/node-htb/</guid>
+      <description>Linux machine which has a website with a password leak. We gain access to the user thanks to a credentials leak. We privesc thanks to a mongoDB javascript and SUID binary exploitation.</description>
+    </item>
+    
+    <item>
+      <title>Sense</title>
+      <link>https://pwndside.github.io/posts/sense-htb/</link>
+      <pubDate>Tue, 22 Aug 2023 12:14:14 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/sense-htb/</guid>
+      <description>Linux machine with a website running pfsense which has credentials leak which help us access to the software. Thanks to a command injection we can access as root.</description>
+    </item>
+    
     <item>
       <title>Solidstate</title>
       <link>https://pwndside.github.io/posts/solidstate-htb/</link>
