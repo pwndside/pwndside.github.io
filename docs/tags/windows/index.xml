@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Jul 2023 21:17:42 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Aug 2023 22:29:45 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arctic</title>
+      <link>https://pwndside.github.io/posts/arctic-htb/</link>
+      <pubDate>Tue, 22 Aug 2023 22:29:45 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/arctic-htb/</guid>
+      <description>Windows machine with a fmtp port running ColdFusion v8, thanks to a RCE vuln we have obtained access to the user. The privEsc is similar as Bastard machine taking advantage of Chimichurri.exe exploit.</description>
+    </item>
+    
     <item>
       <title>Granny</title>
       <link>https://pwndside.github.io/posts/granny-htb/</link>
