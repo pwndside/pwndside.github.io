@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Aug 2023 22:29:45 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/categories/hackthebox/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Aug 2023 20:29:34 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/categories/hackthebox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Valentine</title>
+      <link>https://pwndside.github.io/posts/valentine-htb/</link>
+      <pubDate>Tue, 29 Aug 2023 20:29:34 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/valentine-htb/</guid>
+      <description>Linux machine with ssh private key leak and a heartbleed vuln. We are able to privEsc thanks to a SUID tmux session file. Other way to privEsc is taking advatage of the unpatched kernel version.</description>
+    </item>
+    
     <item>
       <title>Arctic</title>
       <link>https://pwndside.github.io/posts/arctic-htb/</link>
