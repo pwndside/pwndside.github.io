@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Aug 2023 20:29:34 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/privesc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Aug 2023 13:24:37 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/privesc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grandpa</title>
+      <link>https://pwndside.github.io/posts/grandpa-htb/</link>
+      <pubDate>Wed, 30 Aug 2023 13:24:37 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/grandpa-htb/</guid>
+      <description>Windows machine with a website which has a buffer overflow vulnerability which allow us to get RCE. Thanks to Churrasco.exe we exploit the SeImpersonatePrivilege to privEsc.</description>
+    </item>
+    
     <item>
       <title>Valentine</title>
       <link>https://pwndside.github.io/posts/valentine-htb/</link>
