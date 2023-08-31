@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Aug 2023 20:29:34 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Aug 2023 17:08:15 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Poison</title>
+      <link>https://pwndside.github.io/posts/poison-htb/</link>
+      <pubDate>Thu, 31 Aug 2023 17:08:15 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/poison-htb/</guid>
+      <description>Linux machine with a website which has a base64 encoded password leaked on a directory. We privEsc thanks to do a portforwarding on a VNC port.</description>
+    </item>
+    
     <item>
       <title>Valentine</title>
       <link>https://pwndside.github.io/posts/valentine-htb/</link>
