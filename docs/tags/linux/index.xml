@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 31 Aug 2023 17:08:15 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Sep 2023 16:42:25 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sunday</title>
+      <link>https://pwndside.github.io/posts/sunday-htb/</link>
+      <pubDate>Fri, 01 Sep 2023 16:42:25 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/sunday-htb/</guid>
+      <description>Linux machine which has a finger port which helps us to list users by bruteforcing. We privEsc to summy thanks to a password leak on a backup file. With a sudoers command we privEsc to root.</description>
+    </item>
+    
     <item>
       <title>Poison</title>
       <link>https://pwndside.github.io/posts/poison-htb/</link>
