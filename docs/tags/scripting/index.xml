@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>scripting on PwndSide</title>
+    <link>https://pwndside.github.io/tags/scripting/</link>
+    <description>Recent content in scripting on PwndSide</description>
+    <image>
+      <title>PwndSide</title>
+      <url>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 02 Sep 2023 14:28:00 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/scripting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TartarSauce</title>
+      <link>https://pwndside.github.io/posts/tartarsauce-htb/</link>
+      <pubDate>Sat, 02 Sep 2023 14:28:00 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/tartarsauce-htb/</guid>
+      <description>Linux machine with a website which has two CMS one of them called WordPress has a plugin with RFI. A sudoer command allow us to privEsc to onuma. Thanks to a scheduled cronjob which execute a script we are able to leak information in order to PrivEsc.</description>
+    </item>
+    
+  </channel>
+</rss>
