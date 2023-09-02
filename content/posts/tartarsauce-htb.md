@@ -391,7 +391,7 @@ else
 fi
 ```
 
-Basically the program starts removing all the content starting with a dot and the `/var/check` directory then creates a tar of `/var/www/html` with a name started with a dot followed by a hash and saves the backup temporarily on `/var/tmp.`
+Basically the program starts removing all the content starting with a dot on `/var/tmp` and the `/var/tmp/check` directory then creates a tar of `/var/www/html` with a name started with a dot followed by a hash and saves the backup temporarily on `/var/tmp.`
 
 Once done the program sleeps 30 seconds and after that extracts the backup content on `/var/tmp/check` in order to check the integrity.
 
