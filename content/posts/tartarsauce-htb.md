@@ -448,7 +448,7 @@ while true; do
         echo "Found a file with a hash in the name"
         echo "Removing file..."
         rm /var/tmp/$filename
-				echo "Changing the file..."
+		echo "Changing the file..."
         mv payload /var/tmp/$filename
         echo "Done"
 				exit 0
