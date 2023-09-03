@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 02 Sep 2023 14:28:00 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Sep 2023 14:03:47 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Irked</title>
+      <link>https://pwndside.github.io/posts/irked-htb/</link>
+      <pubDate>Sun, 03 Sep 2023 14:03:47 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/irked-htb/</guid>
+      <description>Linux machine with a IRC port witch a Backdoor Command Execution which gives us RCE. In this machine we need to privEsc two times one taking advantage of a hidden password on a picture and the other one executing a SUID binary which execute a script as root.</description>
+    </item>
+    
     <item>
       <title>TartarSauce</title>
       <link>https://pwndside.github.io/posts/tartarsauce-htb/</link>
