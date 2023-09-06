@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 Sep 2023 14:03:47 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Sep 2023 15:27:13 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bounty</title>
+      <link>https://pwndside.github.io/posts/bounty-htb/</link>
+      <pubDate>Wed, 06 Sep 2023 15:27:13 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/bounty-htb/</guid>
+      <description>Windows machine with a website which we can upload crafted web.config files in order to get RCE. We privEsc exploiting SeImpersonatePrivilege with JuicyPotato.exe.</description>
+    </item>
+    
     <item>
       <title>Irked</title>
       <link>https://pwndside.github.io/posts/irked-htb/</link>

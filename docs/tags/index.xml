@@ -11,20 +11,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 Sep 2023 14:03:47 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>linux</title>
-      <link>https://pwndside.github.io/tags/linux/</link>
-      <pubDate>Sun, 03 Sep 2023 14:03:47 +0200</pubDate>
-      
-      <guid>https://pwndside.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Wed, 06 Sep 2023 15:27:13 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>privesc</title>
       <link>https://pwndside.github.io/tags/privesc/</link>
-      <pubDate>Sun, 03 Sep 2023 14:03:47 +0200</pubDate>
+      <pubDate>Wed, 06 Sep 2023 15:27:13 +0200</pubDate>
       
       <guid>https://pwndside.github.io/tags/privesc/</guid>
       <description></description>
@@ -33,9 +24,27 @@
     <item>
       <title>web</title>
       <link>https://pwndside.github.io/tags/web/</link>
-      <pubDate>Sun, 03 Sep 2023 14:03:47 +0200</pubDate>
+      <pubDate>Wed, 06 Sep 2023 15:27:13 +0200</pubDate>
       
       <guid>https://pwndside.github.io/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://pwndside.github.io/tags/windows/</link>
+      <pubDate>Wed, 06 Sep 2023 15:27:13 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://pwndside.github.io/tags/linux/</link>
+      <pubDate>Sun, 03 Sep 2023 14:03:47 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -63,15 +72,6 @@
       <pubDate>Wed, 30 Aug 2023 13:24:37 +0200</pubDate>
       
       <guid>https://pwndside.github.io/tags/buffer-overflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>windows</title>
-      <link>https://pwndside.github.io/tags/windows/</link>
-      <pubDate>Wed, 30 Aug 2023 13:24:37 +0200</pubDate>
-      
-      <guid>https://pwndside.github.io/tags/windows/</guid>
       <description></description>
     </item>
     
