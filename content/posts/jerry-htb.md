@@ -117,7 +117,7 @@ Now it’s time to upload and deploy the file.
 
 ![Untitled](/HTB/jerry-4.png)
 
-A new directory is displayed now in the admin tool, let’s access to `/shell` but before we need to set a nc listener.
+A new directory is displayed in the admin tool, let’s access to `/shell` but before we need to set a nc listener.
 
 ```bash
 nc -lv 4444
@@ -127,7 +127,7 @@ nc -lv 4444
 
 ![Untitled](/HTB/jerry-5.png)
 
-**NT / AUTHORITY SYSTEM** without privEsc, I think it is the easiest machine so far.
+**NT\AUTHORITY SYSTEM** without privEsc, I think it is the easiest machine so far.
 
 ## Flag(s)
 
