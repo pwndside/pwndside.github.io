@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 06 Sep 2023 15:27:13 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Sep 2023 19:13:39 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Friendzone</title>
+      <link>https://pwndside.github.io/posts/friendzone-htb/</link>
+      <pubDate>Mon, 11 Sep 2023 19:13:39 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/posts/friendzone-htb/</guid>
+      <description>Linux machine with a website which has LFI and thanks to be able to upload resources to the machine via smb we pwnd the user. A Library Hijacking vulnerability help us to privEsc as root.</description>
+    </item>
+    
     <item>
       <title>Bounty</title>
       <link>https://pwndside.github.io/posts/bounty-htb/</link>
