@@ -1,7 +1,7 @@
 ---
 title: "Jerry"
 date: 2023-09-11T21:46:53+02:00
-tags: [""]
+tags: ["windows","web"]
 categories: ["hackthebox"]
 author: "Ayman Boulaich"
 showToc: true

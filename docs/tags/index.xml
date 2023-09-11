@@ -11,7 +11,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Sep 2023 19:13:39 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Sep 2023 21:46:53 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>web</title>
+      <link>https://pwndside.github.io/tags/web/</link>
+      <pubDate>Mon, 11 Sep 2023 21:46:53 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://pwndside.github.io/tags/windows/</link>
+      <pubDate>Mon, 11 Sep 2023 21:46:53 +0200</pubDate>
+      
+      <guid>https://pwndside.github.io/tags/windows/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>linux</title>
       <link>https://pwndside.github.io/tags/linux/</link>
@@ -27,24 +45,6 @@
       <pubDate>Mon, 11 Sep 2023 19:13:39 +0200</pubDate>
       
       <guid>https://pwndside.github.io/tags/privesc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
-      <link>https://pwndside.github.io/tags/web/</link>
-      <pubDate>Mon, 11 Sep 2023 19:13:39 +0200</pubDate>
-      
-      <guid>https://pwndside.github.io/tags/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>windows</title>
-      <link>https://pwndside.github.io/tags/windows/</link>
-      <pubDate>Wed, 06 Sep 2023 15:27:13 +0200</pubDate>
-      
-      <guid>https://pwndside.github.io/tags/windows/</guid>
       <description></description>
     </item>
     
