@@ -472,7 +472,7 @@ As the cronjob is executed as root, we are able to execute commands as the above
 
 Now only rests to wait.
 
-[Untitled](/HTB/friend-v1.mov)
+![Untitled](/HTB/friend-26.gif)
 
 If we execute the following command the current bash session is gonna turn to a root session.
 
