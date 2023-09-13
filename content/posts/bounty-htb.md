@@ -214,7 +214,7 @@ Nice we have a **shell**
 
 ![Untitled](/HTB/bounty-13.png)
 
-We aren’t **NT AUTHORITY SYSTEM** so we need to **privEsc**.
+We aren’t **NT AUTHORITY\SYSTEM** so we need to **privEsc**.
 
 ## Escalating Privilege
 
