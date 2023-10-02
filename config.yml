@@ -78,11 +78,13 @@ params:
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/pwndside"
-    - name: stackoverflow
-      url: "https://stackoverflow.com/users/22277811/ayman-boulaich"
+      url: "https://twitter.com/pwnds1de"
+    - name: hackerone
+      url: "https://hackerone.com/pwnds1de"
     - name: github
       url: "https://github.com/pwndside"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/aymanblh/"
 
   analytics:
     google:
