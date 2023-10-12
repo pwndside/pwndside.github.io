@@ -43,10 +43,6 @@ editPost:
 
 ![Untitled](/HTB/conceal-icon.png)
 
-## Tools Used
-
-- nmap
-
 ## Port Scanning
 
 ```bash

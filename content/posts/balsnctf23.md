@@ -37,8 +37,8 @@ editPost:
 
 ## INDEX
 
-- [0FA](https://pwndside.github.io/posts/balsnctf23/#0FA)
-- [SaaS](https://pwndside.github.io/posts/balsnctf23/#SaaS)
+- [0FA](https://pwndside.github.io/posts/balsnctf23/#0fa)
+- [SaaS](https://pwndside.github.io/posts/balsnctf23/#saas)
 
 ## 0FA
 
