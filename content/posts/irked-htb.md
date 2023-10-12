@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "Linux machine with a IRC port witch a Backdoor Command Execution which gives us RCE. In this machine we need to privEsc two times one taking advantage of a hidden password on a picture and the other one executing a SUID binary which execute a script as root."
 description: "Linux machine with a IRC port witch a Backdoor Command Execution which gives us RCE. In this machine we need to privEsc two times one taking advantage of a hidden password on a picture and the other one executing a SUID binary which execute a script as root."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

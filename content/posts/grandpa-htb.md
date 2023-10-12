@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "Windows machine with a website which has a buffer overflow vulnerability which allow us to get RCE. Thanks to Churrasco.exe we exploit the SeImpersonatePrivilege to privEsc."
 description: "Windows machine with a website which has a buffer overflow vulnerability which allow us to get RCE. Thanks to Churrasco.exe we exploit the SeImpersonatePrivilege to privEsc."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

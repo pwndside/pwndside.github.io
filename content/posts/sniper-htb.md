@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "Windows machine with a website which has a RFI vulnerability. The initial privilege escalation occurred due to a typical case of credential reuse. The second privesc revolved around maliciously manipulating a .chm file in order to achieve code execution with administrator privileges."
 description: "Windows machine with a website which has a RFI vulnerability. The initial privilege escalation occurred due to a typical case of credential reuse. The second privesc revolved around maliciously manipulating a .chm file in order to achieve code execution with administrator privileges."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

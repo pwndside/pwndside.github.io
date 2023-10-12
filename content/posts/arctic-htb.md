@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "Windows machine with a fmtp port running ColdFusion v8, thanks to a RCE vuln we have obtained access to the user. The privEsc is similar as Bastard machine taking advantage of Chimichurri.exe exploit."
 description: "Windows machine with a fmtp port running ColdFusion v8, thanks to a RCE vuln we have obtained access to the user. The privEsc is similar as Bastard machine taking advantage of Chimichurri.exe exploit."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

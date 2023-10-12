@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "Desc Text."
 description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

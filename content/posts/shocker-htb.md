@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "Linux machine with Shellshock bash remote code execution vulnerability."
 description: "Linux machine with Shellshock bash remote code execution vulnerability."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "Linux machine which has a website with a password leak. We gain access to the user thanks to a credentials leak. We privesc thanks to a mongoDB javascript and SUID binary exploitation."
 description: "Linux machine which has a website with a password leak. We gain access to the user thanks to a credentials leak. We privesc thanks to a mongoDB javascript and SUID binary exploitation."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

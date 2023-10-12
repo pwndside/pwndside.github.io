@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "Linux machine with a website which has virtual hosting, as first vulnerabilty we found a login page with SQLi and a command injection which makes us achieve the RCE. The privesc in this machine takes place on a cronjob."
 description: "Linux machine with a website which has virtual hosting, as first vulnerabilty we found a login page with SQLi and a command injection which makes us achieve the RCE. The privesc in this machine takes place on a cronjob."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

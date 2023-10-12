@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "A windows room that has vulnerable samba service running."
 description: "A windows room that has vulnerable samba service running."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

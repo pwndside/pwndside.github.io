@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "I have had the pleasure of participating on balsnCTF. This CTF was so funny and I have been able to learn a lot. In this writeup I am gonna write about 0FA and SaaS."
 description: "I have had the pleasure of participating on balsnCTF. This CTF was so funny and I have been able to learn a lot. In this writeup I am gonna write about 0FA and SaaS."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

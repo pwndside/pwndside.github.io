@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "A windows friendly machine with a Remote Command Injection which allow us to gain access to the user and a easy privesc with the MS16-032 exploit which is a unpatched kernel vulnerability."
 description: "A windows friendly machine with a Remote Command Injection which allow us to gain access to the user and a easy privesc with the MS16-032 exploit which is a unpatched kernel vulnerability."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

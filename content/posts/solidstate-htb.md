@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "Linux machine with three mail services and a admin tool to manage them, we take advantage of the default credentials of the tool to get email users and thanks to the credentials leak in one email we obtained access as user. We got the privesc thanks to a cronjob."
 description: "Linux machine with three mail services and a admin tool to manage them, we take advantage of the default credentials of the tool to get email users and thanks to the credentials leak in one email we obtained access as user. We got the privesc thanks to a cronjob."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

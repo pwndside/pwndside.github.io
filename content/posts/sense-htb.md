@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "Linux machine with a website running pfsense which has credentials leak which help us access to the software. Thanks to a command injection we can access as root."
 description: "Linux machine with a website running pfsense which has credentials leak which help us access to the software. Thanks to a command injection we can access as root."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

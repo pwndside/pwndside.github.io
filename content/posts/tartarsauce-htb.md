@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "Linux machine with a website which has two CMS one of them called WordPress has a plugin with RFI. A sudoer command allow us to privEsc to onuma. Thanks to a scheduled cronjob which execute a script we are able to leak information in order to PrivEsc."
 description: "Linux machine with a website which has two CMS one of them called WordPress has a plugin with RFI. A sudoer command allow us to privEsc to onuma. Thanks to a scheduled cronjob which execute a script we are able to leak information in order to PrivEsc."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

@@ -10,6 +10,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "This is a friendly Linux machine with a vulnerable Samba service that can be exploited."
 description: "This is a friendly Linux machine with a vulnerable Samba service that can be exploited."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "A friendly linux machine which has a only http port which is vulnerable to WAR files upload. PrivEsc for this machine is not needed."
 description: "A friendly linux machine which has a only http port which is vulnerable to WAR files upload. PrivEsc for this machine is not needed."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

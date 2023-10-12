@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "Linux machine which has a finger port which helps us to list users by bruteforcing. We privEsc to summy thanks to a password leak on a backup file. With a sudoers command we privEsc to root."
 description: "Linux machine which has a finger port which helps us to list users by bruteforcing. We privEsc to summy thanks to a password leak on a backup file. With a sudoers command we privEsc to root."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

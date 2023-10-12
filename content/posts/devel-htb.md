@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "This room is a windows room with a http service which runs iis7 web server which content is able at a misconfigured ftp service."
 description: "This room is a windows room with a http service which runs iis7 web server which content is able at a misconfigured ftp service."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

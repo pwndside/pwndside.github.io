@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
+summary: "This room is a Linux environment running a website powered by the Nibbleblog engine, and the version we are using has a shell vulnerability."
 description: "This room is a Linux environment running a website powered by the Nibbleblog engine, and the version we are using has a shell vulnerability."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

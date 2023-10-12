@@ -17,7 +17,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: PwndSide
-  description: "PwndSide description"
+  description: "Ayman's Hacking Journey"
   keywords: [Blog, Portfolio, HackTheBox, CTF, PwndSide]
   author: Ayman Boulaich
   # author: ["Me", "You"] # multiple authors
