@@ -12,13 +12,13 @@ comments: false
 description: "Windows machine with a webpage powered by Drupal which was our first entry point thanks to CVE-2018-7600 which gives use RCE. For privesc I exploited the MS10-059 which is a unpatched kernel vulnerability."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true

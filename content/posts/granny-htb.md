@@ -12,13 +12,13 @@ comments: false
 description: "Windows machine which has webDAV which allow us to send a reverse shell to gain RCE. We have privesc thanks to the SeImpersonatePrivilege which can be exploited with tools like churrasco or JuicyPotato."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true

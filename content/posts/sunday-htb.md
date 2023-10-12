@@ -12,13 +12,13 @@ comments: false
 description: "Linux machine which has a finger port which helps us to list users by bruteforcing. We privEsc to summy thanks to a password leak on a backup file. With a sudoers command we privEsc to root."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true

@@ -12,13 +12,13 @@ comments: false
 description: "Linux machine which has a website with a password leak. We gain access to the user thanks to a credentials leak. We privesc thanks to a mongoDB javascript and SUID binary exploitation."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true

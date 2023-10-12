@@ -12,13 +12,13 @@ comments: false
 description: "A windows friendly machine with a Remote Command Injection which allow us to gain access to the user and a easy privesc with the MS16-032 exploit which is a unpatched kernel vulnerability."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true

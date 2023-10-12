@@ -12,13 +12,13 @@ comments: false
 description: "Linux machine with three mail services and a admin tool to manage them, we take advantage of the default credentials of the tool to get email users and thanks to the credentials leak in one email we obtained access as user. We got the privesc thanks to a cronjob."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true

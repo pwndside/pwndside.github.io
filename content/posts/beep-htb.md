@@ -12,13 +12,13 @@ comments: false
 description: "Linux machine with a communications server software that brings IP PBX, email, IM, faxing and collaboration functionality into a single platform and a lot of ways to exploit them as well."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true

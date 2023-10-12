@@ -12,13 +12,13 @@ comments: false
 description: "Linux machine with a website which has LFI and thanks to be able to upload resources to the machine via smb we pwnd the user. A Library Hijacking vulnerability help us to privEsc as root."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true

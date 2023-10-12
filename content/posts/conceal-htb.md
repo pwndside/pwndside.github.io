@@ -12,13 +12,13 @@ comments: false
 description: "This machine has IPSEC VPN hiding the TCP ports thanks to the password leaked by snmp we gain access to those ports. The RCE is achieved by uploading a asp file to the website via ftp. We privEsc exploiting SeImpersonatePrivilege with JuicyPotato.exe."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true

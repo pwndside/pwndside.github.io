@@ -12,13 +12,13 @@ comments: false
 description: "Windows machine with a website which we can upload crafted web.config files in order to get RCE. We privEsc exploiting SeImpersonatePrivilege with JuicyPotato.exe."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
