@@ -4,7 +4,7 @@ date: {{ .Date }}
 tags: [""]
 categories: ["hackthebox"]
 author: "Ayman Boulaich"
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: false
