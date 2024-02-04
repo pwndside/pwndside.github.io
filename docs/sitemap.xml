@@ -2,43 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pwndside.github.io/categories/</loc>
-    <lastmod>2024-02-04T13:15:51+01:00</lastmod>
-  </url><url>
-    <loc>https://pwndside.github.io/categories/hackthebox/</loc>
-    <lastmod>2024-02-04T13:15:51+01:00</lastmod>
-  </url><url>
-    <loc>https://pwndside.github.io/posts/</loc>
-    <lastmod>2024-02-04T13:15:51+01:00</lastmod>
-  </url><url>
-    <loc>https://pwndside.github.io/posts/pov-htb/</loc>
-    <lastmod>2024-02-04T13:15:51+01:00</lastmod>
-  </url><url>
-    <loc>https://pwndside.github.io/</loc>
-    <lastmod>2024-02-04T13:15:51+01:00</lastmod>
-  </url><url>
-    <loc>https://pwndside.github.io/tags/serialization/</loc>
-    <lastmod>2024-02-04T13:15:51+01:00</lastmod>
-  </url><url>
-    <loc>https://pwndside.github.io/tags/</loc>
-    <lastmod>2024-02-04T13:15:51+01:00</lastmod>
-  </url><url>
-    <loc>https://pwndside.github.io/tags/web/</loc>
-    <lastmod>2024-02-04T13:15:51+01:00</lastmod>
-  </url><url>
-    <loc>https://pwndside.github.io/tags/windows/</loc>
-    <lastmod>2024-02-04T13:15:51+01:00</lastmod>
-  </url><url>
-    <loc>https://pwndside.github.io/tags/wintokens/</loc>
-    <lastmod>2024-02-04T13:15:51+01:00</lastmod>
-  </url><url>
     <loc>https://pwndside.github.io/posts/balsnctf23/</loc>
+    <lastmod>2023-10-12T19:46:31+02:00</lastmod>
+  </url><url>
+    <loc>https://pwndside.github.io/categories/</loc>
     <lastmod>2023-10-12T19:46:31+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/categories/ctf/</loc>
     <lastmod>2023-10-12T19:46:31+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/tags/ja3/</loc>
+    <lastmod>2023-10-12T19:46:31+02:00</lastmod>
+  </url><url>
+    <loc>https://pwndside.github.io/posts/</loc>
+    <lastmod>2023-10-12T19:46:31+02:00</lastmod>
+  </url><url>
+    <loc>https://pwndside.github.io/</loc>
+    <lastmod>2023-10-12T19:46:31+02:00</lastmod>
+  </url><url>
+    <loc>https://pwndside.github.io/tags/serialization/</loc>
+    <lastmod>2023-10-12T19:46:31+02:00</lastmod>
+  </url><url>
+    <loc>https://pwndside.github.io/tags/</loc>
+    <lastmod>2023-10-12T19:46:31+02:00</lastmod>
+  </url><url>
+    <loc>https://pwndside.github.io/tags/web/</loc>
     <lastmod>2023-10-12T19:46:31+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/posts/247ctf/</loc>
@@ -50,10 +38,16 @@
     <loc>https://pwndside.github.io/tags/ftp/</loc>
     <lastmod>2023-09-13T19:26:37+02:00</lastmod>
   </url><url>
+    <loc>https://pwndside.github.io/categories/hackthebox/</loc>
+    <lastmod>2023-09-13T19:26:37+02:00</lastmod>
+  </url><url>
     <loc>https://pwndside.github.io/tags/privesc/</loc>
     <lastmod>2023-09-13T19:26:37+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/tags/snmp/</loc>
+    <lastmod>2023-09-13T19:26:37+02:00</lastmod>
+  </url><url>
+    <loc>https://pwndside.github.io/tags/windows/</loc>
     <lastmod>2023-09-13T19:26:37+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/posts/jerry-htb/</loc>

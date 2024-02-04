@@ -11,16 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Feb 2024 13:15:51 +0100</lastBuildDate><atom:link href="https://pwndside.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>POV</title>
-      <link>https://pwndside.github.io/posts/pov-htb/</link>
-      <pubDate>Sun, 04 Feb 2024 13:15:51 +0100</pubDate>
-      
-      <guid>https://pwndside.github.io/posts/pov-htb/</guid>
-      <description>This time we are going to exploit a new seasonal machine called Pov, this is my first competitive machine and the first one which I have done after failing the OSCP exam, being one of the many I want to do before retaking it. In the end the effort will pay off. 😼</description>
-    </item>
-    
+    <lastBuildDate>Thu, 12 Oct 2023 19:46:31 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>balsnCTF23</title>
       <link>https://pwndside.github.io/posts/balsnctf23/</link>
