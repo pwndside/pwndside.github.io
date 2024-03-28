@@ -11,114 +11,105 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Oct 2023 19:46:31 +0200</lastBuildDate><atom:link href="https://pwndside.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Feb 2024 16:07:28 +0100</lastBuildDate>
+    <atom:link href="https://pwndside.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ja3</title>
-      <link>https://pwndside.github.io/tags/ja3/</link>
-      <pubDate>Thu, 12 Oct 2023 19:46:31 +0200</pubDate>
-      
-      <guid>https://pwndside.github.io/tags/ja3/</guid>
+      <title>Serialized</title>
+      <link>https://pwndside.github.io/tags/serialized/</link>
+      <pubDate>Sun, 04 Feb 2024 16:07:28 +0100</pubDate>
+      <guid>https://pwndside.github.io/tags/serialized/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>serialization</title>
-      <link>https://pwndside.github.io/tags/serialization/</link>
-      <pubDate>Thu, 12 Oct 2023 19:46:31 +0200</pubDate>
-      
-      <guid>https://pwndside.github.io/tags/serialization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
+      <title>Web</title>
       <link>https://pwndside.github.io/tags/web/</link>
-      <pubDate>Thu, 12 Oct 2023 19:46:31 +0200</pubDate>
-      
+      <pubDate>Sun, 04 Feb 2024 16:07:28 +0100</pubDate>
       <guid>https://pwndside.github.io/tags/web/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ftp</title>
-      <link>https://pwndside.github.io/tags/ftp/</link>
-      <pubDate>Wed, 13 Sep 2023 19:26:37 +0200</pubDate>
-      
-      <guid>https://pwndside.github.io/tags/ftp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privesc</title>
-      <link>https://pwndside.github.io/tags/privesc/</link>
-      <pubDate>Wed, 13 Sep 2023 19:26:37 +0200</pubDate>
-      
-      <guid>https://pwndside.github.io/tags/privesc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>snmp</title>
-      <link>https://pwndside.github.io/tags/snmp/</link>
-      <pubDate>Wed, 13 Sep 2023 19:26:37 +0200</pubDate>
-      
-      <guid>https://pwndside.github.io/tags/snmp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>windows</title>
+      <title>Windows</title>
       <link>https://pwndside.github.io/tags/windows/</link>
-      <pubDate>Wed, 13 Sep 2023 19:26:37 +0200</pubDate>
-      
+      <pubDate>Sun, 04 Feb 2024 16:07:28 +0100</pubDate>
       <guid>https://pwndside.github.io/tags/windows/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>linux</title>
+      <title>Wintokens</title>
+      <link>https://pwndside.github.io/tags/wintokens/</link>
+      <pubDate>Sun, 04 Feb 2024 16:07:28 +0100</pubDate>
+      <guid>https://pwndside.github.io/tags/wintokens/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ja3</title>
+      <link>https://pwndside.github.io/tags/ja3/</link>
+      <pubDate>Thu, 12 Oct 2023 19:46:31 +0200</pubDate>
+      <guid>https://pwndside.github.io/tags/ja3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Serialization</title>
+      <link>https://pwndside.github.io/tags/serialization/</link>
+      <pubDate>Thu, 12 Oct 2023 19:46:31 +0200</pubDate>
+      <guid>https://pwndside.github.io/tags/serialization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ftp</title>
+      <link>https://pwndside.github.io/tags/ftp/</link>
+      <pubDate>Wed, 13 Sep 2023 19:26:37 +0200</pubDate>
+      <guid>https://pwndside.github.io/tags/ftp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privesc</title>
+      <link>https://pwndside.github.io/tags/privesc/</link>
+      <pubDate>Wed, 13 Sep 2023 19:26:37 +0200</pubDate>
+      <guid>https://pwndside.github.io/tags/privesc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Snmp</title>
+      <link>https://pwndside.github.io/tags/snmp/</link>
+      <pubDate>Wed, 13 Sep 2023 19:26:37 +0200</pubDate>
+      <guid>https://pwndside.github.io/tags/snmp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
       <link>https://pwndside.github.io/tags/linux/</link>
       <pubDate>Mon, 11 Sep 2023 19:13:39 +0200</pubDate>
-      
       <guid>https://pwndside.github.io/tags/linux/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>scripting</title>
+      <title>Scripting</title>
       <link>https://pwndside.github.io/tags/scripting/</link>
       <pubDate>Sat, 02 Sep 2023 14:28:00 +0200</pubDate>
-      
       <guid>https://pwndside.github.io/tags/scripting/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ssh</title>
+      <title>Ssh</title>
       <link>https://pwndside.github.io/tags/ssh/</link>
       <pubDate>Fri, 01 Sep 2023 16:42:25 +0200</pubDate>
-      
       <guid>https://pwndside.github.io/tags/ssh/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>buffer overflow</title>
+      <title>Buffer Overflow</title>
       <link>https://pwndside.github.io/tags/buffer-overflow/</link>
       <pubDate>Wed, 30 Aug 2023 13:24:37 +0200</pubDate>
-      
       <guid>https://pwndside.github.io/tags/buffer-overflow/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>smb</title>
+      <title>Smb</title>
       <link>https://pwndside.github.io/tags/smb/</link>
       <pubDate>Mon, 17 Jul 2023 17:25:24 +0200</pubDate>
-      
       <guid>https://pwndside.github.io/tags/smb/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

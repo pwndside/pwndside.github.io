@@ -11,16 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Jun 2023 11:30:03 +0000</lastBuildDate><atom:link href="https://pwndside.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jun 2023 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://pwndside.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>whoami</title>
       <link>https://pwndside.github.io/about/whoami/</link>
       <pubDate>Sat, 24 Jun 2023 11:30:03 +0000</pubDate>
-      
       <guid>https://pwndside.github.io/about/whoami/</guid>
       <description>Hello my name is Ayman
 I&amp;rsquo;m an enthusiastic individual passionate about hacking, constantly striving to enhance my skills by taking on increasingly challenging tasks. With each passing day, my objective is to improve and push the boundaries of my abilities. 😄</description>
     </item>
-    
   </channel>
 </rss>
