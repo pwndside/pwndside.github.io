@@ -31,7 +31,9 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-> **Hello my name is Ayman**
+> **Hello everyone 👋!! I’m Ayman, and I’m a 20y/o pwnsec enthusiast 👨🏻‍💻**
 
-> I'm an enthusiastic individual passionate about hacking, constantly striving to enhance my skills by taking on increasingly challenging tasks. With each passing day, my objective is to improve and push the boundaries of my abilities. 😄
+![Untitled](/whoami.gif)
+
+and Computer Science student :) 🖥️.
 
