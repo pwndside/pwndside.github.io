@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Snmp on PwndSide</title>
-    <link>http://localhost:1313/tags/snmp/</link>
+    <link>https://pwndside.github.io/tags/snmp/</link>
     <description>Recent content in Snmp on PwndSide</description>
     <image>
       <title>PwndSide</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Wed, 13 Sep 2023 19:26:37 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/snmp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pwndside.github.io/tags/snmp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conceal</title>
-      <link>http://localhost:1313/posts/conceal-htb/</link>
+      <link>https://pwndside.github.io/posts/conceal-htb/</link>
       <pubDate>Wed, 13 Sep 2023 19:26:37 +0200</pubDate>
-      <guid>http://localhost:1313/posts/conceal-htb/</guid>
+      <guid>https://pwndside.github.io/posts/conceal-htb/</guid>
       <description>This machine has IPSEC VPN hiding the TCP ports thanks to the password leaked by snmp we gain access to those ports. The RCE is achieved by uploading a asp file to the website via ftp. We privEsc exploiting SeImpersonatePrivilege with JuicyPotato.exe.</description>
     </item>
   </channel>
