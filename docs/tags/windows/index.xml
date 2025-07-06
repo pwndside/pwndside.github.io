@@ -2,99 +2,99 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Windows on PwndSide</title>
-    <link>https://pwndside.github.io/tags/windows/</link>
+    <link>http://localhost:1313/tags/windows/</link>
     <description>Recent content in Windows on PwndSide</description>
     <image>
       <title>PwndSide</title>
-      <url>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sun, 04 Feb 2024 16:07:28 +0100</lastBuildDate>
-    <atom:link href="https://pwndside.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pov</title>
-      <link>https://pwndside.github.io/posts/pov-htb/</link>
+      <link>http://localhost:1313/posts/pov-htb/</link>
       <pubDate>Sun, 04 Feb 2024 16:07:28 +0100</pubDate>
-      <guid>https://pwndside.github.io/posts/pov-htb/</guid>
+      <guid>http://localhost:1313/posts/pov-htb/</guid>
       <description>This time we are going to exploit a new seasonal machine called Pov, this is my first competitive machine and the first one which I have done after failing the OSCP exam, being one of the many I want to do before retaking it. In the end the effort will pay off. 😼</description>
     </item>
     <item>
       <title>Conceal</title>
-      <link>https://pwndside.github.io/posts/conceal-htb/</link>
+      <link>http://localhost:1313/posts/conceal-htb/</link>
       <pubDate>Wed, 13 Sep 2023 19:26:37 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/conceal-htb/</guid>
+      <guid>http://localhost:1313/posts/conceal-htb/</guid>
       <description>This machine has IPSEC VPN hiding the TCP ports thanks to the password leaked by snmp we gain access to those ports. The RCE is achieved by uploading a asp file to the website via ftp. We privEsc exploiting SeImpersonatePrivilege with JuicyPotato.exe.</description>
     </item>
     <item>
       <title>Jerry</title>
-      <link>https://pwndside.github.io/posts/jerry-htb/</link>
+      <link>http://localhost:1313/posts/jerry-htb/</link>
       <pubDate>Mon, 11 Sep 2023 21:46:53 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/jerry-htb/</guid>
+      <guid>http://localhost:1313/posts/jerry-htb/</guid>
       <description>A friendly linux machine which has a only http port which is vulnerable to WAR files upload. PrivEsc for this machine is not needed.</description>
     </item>
     <item>
       <title>Bounty</title>
-      <link>https://pwndside.github.io/posts/bounty-htb/</link>
+      <link>http://localhost:1313/posts/bounty-htb/</link>
       <pubDate>Wed, 06 Sep 2023 15:27:13 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/bounty-htb/</guid>
+      <guid>http://localhost:1313/posts/bounty-htb/</guid>
       <description>Windows machine with a website which we can upload crafted web.config files in order to get RCE. We privEsc exploiting SeImpersonatePrivilege with JuicyPotato.exe.</description>
     </item>
     <item>
       <title>Grandpa</title>
-      <link>https://pwndside.github.io/posts/grandpa-htb/</link>
+      <link>http://localhost:1313/posts/grandpa-htb/</link>
       <pubDate>Wed, 30 Aug 2023 13:24:37 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/grandpa-htb/</guid>
+      <guid>http://localhost:1313/posts/grandpa-htb/</guid>
       <description>Windows machine with a website which has a buffer overflow vulnerability which allow us to get RCE. Thanks to Churrasco.exe we exploit the SeImpersonatePrivilege to privEsc.</description>
     </item>
     <item>
       <title>Arctic</title>
-      <link>https://pwndside.github.io/posts/arctic-htb/</link>
+      <link>http://localhost:1313/posts/arctic-htb/</link>
       <pubDate>Tue, 22 Aug 2023 22:29:45 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/arctic-htb/</guid>
+      <guid>http://localhost:1313/posts/arctic-htb/</guid>
       <description>Windows machine with a fmtp port running ColdFusion v8, thanks to a RCE vuln we have obtained access to the user. The privEsc is similar as Bastard machine taking advantage of Chimichurri.exe exploit.</description>
     </item>
     <item>
       <title>Granny</title>
-      <link>https://pwndside.github.io/posts/granny-htb/</link>
+      <link>http://localhost:1313/posts/granny-htb/</link>
       <pubDate>Mon, 24 Jul 2023 21:17:42 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/granny-htb/</guid>
+      <guid>http://localhost:1313/posts/granny-htb/</guid>
       <description>Windows machine which has webDAV which allow us to send a reverse shell to gain RCE. We have privesc thanks to the SeImpersonatePrivilege which can be exploited with tools like churrasco or JuicyPotato.</description>
     </item>
     <item>
       <title>Bastard</title>
-      <link>https://pwndside.github.io/posts/bastard-htb/</link>
+      <link>http://localhost:1313/posts/bastard-htb/</link>
       <pubDate>Fri, 21 Jul 2023 17:19:10 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/bastard-htb/</guid>
+      <guid>http://localhost:1313/posts/bastard-htb/</guid>
       <description>Windows machine with a webpage powered by Drupal which was our first entry point thanks to CVE-2018-7600 which gives use RCE. For privesc I exploited the MS10-059 which is a unpatched kernel vulnerability.</description>
     </item>
     <item>
       <title>Sniper</title>
-      <link>https://pwndside.github.io/posts/sniper-htb/</link>
+      <link>http://localhost:1313/posts/sniper-htb/</link>
       <pubDate>Mon, 17 Jul 2023 17:25:24 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/sniper-htb/</guid>
+      <guid>http://localhost:1313/posts/sniper-htb/</guid>
       <description>Windows machine with a website which has a RFI vulnerability. The initial privilege escalation occurred due to a typical case of credential reuse. The second privesc revolved around maliciously manipulating a .chm file in order to achieve code execution with administrator privileges.</description>
     </item>
     <item>
       <title>Devel</title>
-      <link>https://pwndside.github.io/posts/devel-htb/</link>
+      <link>http://localhost:1313/posts/devel-htb/</link>
       <pubDate>Mon, 03 Jul 2023 17:35:59 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/devel-htb/</guid>
+      <guid>http://localhost:1313/posts/devel-htb/</guid>
       <description>This room is a windows room with a http service which runs iis7 web server which content is able at a misconfigured ftp service.</description>
     </item>
     <item>
       <title>Blue</title>
-      <link>https://pwndside.github.io/posts/blue-htb/</link>
+      <link>http://localhost:1313/posts/blue-htb/</link>
       <pubDate>Mon, 26 Jun 2023 12:51:31 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/blue-htb/</guid>
+      <guid>http://localhost:1313/posts/blue-htb/</guid>
       <description>A windows room that has vulnerable samba service running.</description>
     </item>
     <item>
       <title>Legacy</title>
-      <link>https://pwndside.github.io/posts/legacy-htb/</link>
+      <link>http://localhost:1313/posts/legacy-htb/</link>
       <pubDate>Mon, 26 Jun 2023 00:50:22 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/legacy-htb/</guid>
+      <guid>http://localhost:1313/posts/legacy-htb/</guid>
       <description>A windows room that has vulnerable samba service running.</description>
     </item>
   </channel>

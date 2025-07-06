@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ssh on PwndSide</title>
-    <link>https://pwndside.github.io/tags/ssh/</link>
+    <link>http://localhost:1313/tags/ssh/</link>
     <description>Recent content in Ssh on PwndSide</description>
     <image>
       <title>PwndSide</title>
-      <url>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Fri, 01 Sep 2023 16:42:25 +0200</lastBuildDate>
-    <atom:link href="https://pwndside.github.io/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sunday</title>
-      <link>https://pwndside.github.io/posts/sunday-htb/</link>
+      <link>http://localhost:1313/posts/sunday-htb/</link>
       <pubDate>Fri, 01 Sep 2023 16:42:25 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/sunday-htb/</guid>
+      <guid>http://localhost:1313/posts/sunday-htb/</guid>
       <description>Linux machine which has a finger port which helps us to list users by bruteforcing. We privEsc to summy thanks to a password leak on a backup file. With a sudoers command we privEsc to root.</description>
     </item>
     <item>
       <title>Poison</title>
-      <link>https://pwndside.github.io/posts/poison-htb/</link>
+      <link>http://localhost:1313/posts/poison-htb/</link>
       <pubDate>Thu, 31 Aug 2023 17:08:15 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/poison-htb/</guid>
+      <guid>http://localhost:1313/posts/poison-htb/</guid>
       <description>Linux machine with a website which has a base64 encoded password leaked on a directory. We privEsc thanks to do a portforwarding on a VNC port.</description>
     </item>
     <item>
       <title>Valentine</title>
-      <link>https://pwndside.github.io/posts/valentine-htb/</link>
+      <link>http://localhost:1313/posts/valentine-htb/</link>
       <pubDate>Tue, 29 Aug 2023 20:29:34 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/valentine-htb/</guid>
+      <guid>http://localhost:1313/posts/valentine-htb/</guid>
       <description>Linux machine with ssh private key leak and a heartbleed vuln. We are able to privEsc thanks to a SUID tmux session file. Other way to privEsc is taking advatage of the unpatched kernel version.</description>
     </item>
     <item>
       <title>Solidstate</title>
-      <link>https://pwndside.github.io/posts/solidstate-htb/</link>
+      <link>http://localhost:1313/posts/solidstate-htb/</link>
       <pubDate>Tue, 15 Aug 2023 19:04:20 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/solidstate-htb/</guid>
+      <guid>http://localhost:1313/posts/solidstate-htb/</guid>
       <description>Linux machine with three mail services and a admin tool to manage them, we take advantage of the default credentials of the tool to get email users and thanks to the credentials leak in one email we obtained access as user. We got the privesc thanks to a cronjob.</description>
     </item>
     <item>
       <title>Beep</title>
-      <link>https://pwndside.github.io/posts/beep-htb/</link>
+      <link>http://localhost:1313/posts/beep-htb/</link>
       <pubDate>Mon, 10 Jul 2023 23:51:29 +0200</pubDate>
-      <guid>https://pwndside.github.io/posts/beep-htb/</guid>
+      <guid>http://localhost:1313/posts/beep-htb/</guid>
       <description>Linux machine with a communications server software that brings IP PBX, email, IM, faxing and collaboration functionality into a single platform and a lot of ways to exploit them as well.</description>
     </item>
   </channel>
