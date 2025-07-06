@@ -553,6 +553,8 @@ As is known in Linux **EVERYHING** is a file; regular files, executables, direct
 
 As expected, the **blacklist** targets characters that make up the **binary’s name**.
 
+![Untitled](/CTF/gpnctf25-16.png)
+
 From here, I found two ways of **bypassing the sanitization**, both relying on the **format string vulnerability.**
 
 <aside>
@@ -635,8 +637,6 @@ for leak in leaks:
         break
 io.interactive()
 ```
-
-![Untitled](/CTF/gpnctf25-16.png)
 
 ![Untitled](/CTF/gpnctf25-17.png)
 
