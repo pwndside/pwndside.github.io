@@ -56,8 +56,8 @@ And as a little spoiler, we’re not doing too bad! We’ve earned a respectable
 
 ## INDEX
 
-- [NASA](https://pwndside.github.io/posts/gpnctf25/#nasa)
-- [Note Editor](https://pwndside.github.io/posts/gpnctf25/#note-editor)
+- [NASA](https://pwndside.github.io/posts/gpnctf25/#NASA)
+- [Note Editor](https://pwndside.github.io/posts/gpnctf25/#Note-Editor)
 - [no-nc](https://pwndside.github.io/posts/gpnctf25/#no-nc)
 
 ## NASA
@@ -239,15 +239,15 @@ io.interactive()
 
 Wrapping up, **ASan** is a debugging tool, not a security boundary. It helps developers catch bugs during testing, but it's not reliable for protecting a binary against exploitation. Arbitrary read/write breaks the entire threat model that **ASan** operates under.
 
-![Running-Away-Balloon(1).jpg](attachment:44def19c-f123-4111-9c31-01886ac98ce7:Running-Away-Balloon(1).jpg)
+![Untitled](/CTF/gpnctf25-9.png).jpg)
 
 ## Note Editor
 
-![Untitled](/CTF/gpnctf25-9.png)
+![Untitled](/CTF/gpnctf25-10.png)
 
 Not much to take away from this description but it seems to be some sort of note-taking app.
 
-![Untitled](/CTF/gpnctf25-10.png)
+![Untitled](/CTF/gpnctf25-11.png)
 
 Everything seems disabled wasn’t expecting less from an entry level challenge.
 
@@ -437,16 +437,16 @@ io.interactive()
 
 ```
 
-![Untitled](/CTF/gpnctf25-11.png)
+![Untitled](/CTF/gpnctf25-12.png)
 
 > GPNCTF{NOw_y0U_5uRE1y_are_REaDY_to_Pwn_14DyBird!}
 > 
 
 ## no-nc
 
-![Untitled](/CTF/gpnctf25-12.png)
-
 ![Untitled](/CTF/gpnctf25-13.png)
+
+![Untitled](/CTF/gpnctf25-14.png)
 
 Only ASLR enabled this time.
 
@@ -547,13 +547,11 @@ The function ends by opening the specified file and reading its content.
 
 As is known in Linux **EVERYHING** is a file; regular files, executables, directories, and even devices are files, why not leak the content of the **binnary itself** to get the **hardcoded flag.**
 
-![Untitled](/CTF/gpnctf25-14.png)
-
 ![Untitled](/CTF/gpnctf25-15.png)
 
-As expected, the **blacklist** targets characters that make up the **binary’s name**.
-
 ![Untitled](/CTF/gpnctf25-16.png)
+
+As expected, the **blacklist** targets characters that make up the **binary’s name**.
 
 From here, I found two ways of **bypassing the sanitization**, both relying on the **format string vulnerability.**
 
