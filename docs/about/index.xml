@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on PwndSide</title>
     <link>https://pwndside.github.io/about/</link>
     <description>Recent content in Abouts on PwndSide</description>
-    <image>
-      <title>PwndSide</title>
-      <url>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.147.9</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 24 Jun 2023 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://pwndside.github.io/about/index.xml" rel="self" type="application/rss+xml" />
@@ -18,10 +13,7 @@
       <link>https://pwndside.github.io/about/whoami/</link>
       <pubDate>Sat, 24 Jun 2023 11:30:03 +0000</pubDate>
       <guid>https://pwndside.github.io/about/whoami/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Hello everyone 👋!! I’m Ayman, and I’m a 21y/o pwnsec enthusiast 👨🏻‍💻&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt=&#34;Untitled&#34; loading=&#34;lazy&#34; src=&#34;https://pwndside.github.io/whoami.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;and Computer Science student :) 🖥️.&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hello everyone 👋!! I’m Ayman, and I’m a 21y/o pwnsec enthusiast 👨🏻‍💻&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pwndside.github.io/whoami.gif&#34; alt=&#34;Untitled&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;and Computer Science student :) 🖥️.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
