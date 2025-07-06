@@ -56,9 +56,9 @@ And as a little spoiler, we’re not doing too bad! We’ve earned a respectable
 
 ## INDEX
 
-- [NASA](https://pwndside.github.io/posts/gpnCTF/#NASA)
-- [Note Editor](https://pwndside.github.io/posts/gpnCTF/#Note-Editor)
-- [no-nc](https://pwndside.github.io/posts/gpnCTF/#no-nc)
+- [NASA](https://pwndside.github.io/posts/gpnctf25/#nasa)
+- [Note Editor](https://pwndside.github.io/posts/gpnctf25/#note-editor)
+- [no-nc](https://pwndside.github.io/posts/gpnctf25/#no-nc)
 
 ## NASA
 
