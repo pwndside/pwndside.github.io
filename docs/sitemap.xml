@@ -3,24 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://pwndside.github.io/categories/</loc>
-    <lastmod>2024-02-04T16:07:28+01:00</lastmod>
+    <lastmod>2025-07-06T19:26:52+02:00</lastmod>
   </url><url>
-    <loc>https://pwndside.github.io/categories/hackthebox/</loc>
-    <lastmod>2024-02-04T16:07:28+01:00</lastmod>
+    <loc>https://pwndside.github.io/categories/ctf/</loc>
+    <lastmod>2025-07-06T19:26:52+02:00</lastmod>
+  </url><url>
+    <loc>https://pwndside.github.io/posts/gpnctf25/</loc>
+    <lastmod>2025-07-06T19:26:52+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/posts/</loc>
+    <lastmod>2025-07-06T19:26:52+02:00</lastmod>
+  </url><url>
+    <loc>https://pwndside.github.io/tags/pwn/</loc>
+    <lastmod>2025-07-06T19:26:52+02:00</lastmod>
+  </url><url>
+    <loc>https://pwndside.github.io/</loc>
+    <lastmod>2025-07-06T19:26:52+02:00</lastmod>
+  </url><url>
+    <loc>https://pwndside.github.io/tags/</loc>
+    <lastmod>2025-07-06T19:26:52+02:00</lastmod>
+  </url><url>
+    <loc>https://pwndside.github.io/categories/hackthebox/</loc>
     <lastmod>2024-02-04T16:07:28+01:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/posts/pov-htb/</loc>
     <lastmod>2024-02-04T16:07:28+01:00</lastmod>
   </url><url>
-    <loc>https://pwndside.github.io/</loc>
-    <lastmod>2024-02-04T16:07:28+01:00</lastmod>
-  </url><url>
     <loc>https://pwndside.github.io/tags/serialized/</loc>
-    <lastmod>2024-02-04T16:07:28+01:00</lastmod>
-  </url><url>
-    <loc>https://pwndside.github.io/tags/</loc>
     <lastmod>2024-02-04T16:07:28+01:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/tags/web/</loc>
@@ -33,9 +42,6 @@
     <lastmod>2024-02-04T16:07:28+01:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/posts/balsnctf23/</loc>
-    <lastmod>2023-10-12T19:46:31+02:00</lastmod>
-  </url><url>
-    <loc>https://pwndside.github.io/categories/ctf/</loc>
     <lastmod>2023-10-12T19:46:31+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/tags/ja3/</loc>
@@ -110,17 +116,11 @@
     <loc>https://pwndside.github.io/posts/solidstate-htb/</loc>
     <lastmod>2023-08-15T19:04:20+02:00</lastmod>
   </url><url>
-    <loc>https://pwndside.github.io/posts/cronos-htb/</loc>
-    <lastmod>2023-07-26T13:53:53+02:00</lastmod>
-  </url><url>
     <loc>https://pwndside.github.io/posts/granny-htb/</loc>
     <lastmod>2023-07-24T21:17:42+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/posts/bastard-htb/</loc>
     <lastmod>2023-07-21T17:19:10+02:00</lastmod>
-  </url><url>
-    <loc>https://pwndside.github.io/posts/optimum-htb/</loc>
-    <lastmod>2023-07-20T23:36:20+02:00</lastmod>
   </url><url>
     <loc>https://pwndside.github.io/tags/smb/</loc>
     <lastmod>2023-07-17T17:25:24+02:00</lastmod>

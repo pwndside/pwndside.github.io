@@ -9,22 +9,22 @@
       <url>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Feb 2024 16:07:28 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 19:26:52 +0200</lastBuildDate>
     <atom:link href="https://pwndside.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ctf</title>
+      <link>https://pwndside.github.io/categories/ctf/</link>
+      <pubDate>Sun, 06 Jul 2025 19:26:52 +0200</pubDate>
+      <guid>https://pwndside.github.io/categories/ctf/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hackthebox</title>
       <link>https://pwndside.github.io/categories/hackthebox/</link>
       <pubDate>Sun, 04 Feb 2024 16:07:28 +0100</pubDate>
       <guid>https://pwndside.github.io/categories/hackthebox/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ctf</title>
-      <link>https://pwndside.github.io/categories/ctf/</link>
-      <pubDate>Thu, 12 Oct 2023 19:46:31 +0200</pubDate>
-      <guid>https://pwndside.github.io/categories/ctf/</guid>
       <description></description>
     </item>
   </channel>
