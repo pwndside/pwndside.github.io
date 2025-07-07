@@ -640,5 +640,7 @@ io.interactive()
 
 ![Untitled](/CTF/gpnctf25-18.png)
 
+![Untitled](/CTF/gpnctf25-19.png)
+
 > GPNCTF{uP_AND_dowN_4Ll_4round_6oEs_7H3_N_dImEn51onAl_c1rClE_WTf_IS_Thi5_F14G}
 >

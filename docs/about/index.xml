@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on PwndSide</title>
-    <link>http://localhost:1313/about/</link>
+    <link>https://pwndside.github.io/about/</link>
     <description>Recent content in Abouts on PwndSide</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 24 Jun 2023 11:30:03 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pwndside.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>whoami</title>
-      <link>http://localhost:1313/about/whoami/</link>
+      <link>https://pwndside.github.io/about/whoami/</link>
       <pubDate>Sat, 24 Jun 2023 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/about/whoami/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hello everyone 👋!! I’m Ayman, and I’m a 21y/o pwnsec enthusiast 👨🏻‍💻&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/whoami.gif&#34; alt=&#34;Untitled&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;and Computer Science student :) 🖥️.&lt;/p&gt;</description>
+      <guid>https://pwndside.github.io/about/whoami/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hello everyone 👋!! I’m Ayman, and I’m a 21y/o pwnsec enthusiast 👨🏻‍💻&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://pwndside.github.io/whoami.gif&#34; alt=&#34;Untitled&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;and Computer Science student :) 🖥️.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
