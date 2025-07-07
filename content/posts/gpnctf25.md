@@ -239,7 +239,7 @@ io.interactive()
 
 Wrapping up, **ASan** is a debugging tool, not a security boundary. It helps developers catch bugs during testing, but it's not reliable for protecting a binary against exploitation. Arbitrary read/write breaks the entire threat model that **ASan** operates under.
 
-![Untitled](/CTF/gpnctf25-9.png).jpg)
+![Untitled](/CTF/gpnctf25-9.png)
 
 ## Note Editor
 
