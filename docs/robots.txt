@@ -1,1 +1,3 @@
 User-agent: *
+Disallow:
+Sitemap: https://pwndside.github.io/sitemap.xml
