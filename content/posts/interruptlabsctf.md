@@ -1,6 +1,6 @@
 ---
 title: "interruptlabsCTF"
-date: 2025-07-06T19:26:52+02:00
+date: 2025-08-21T21:23:52+02:00
 tags: ["pwn"]
 categories: ["ctf"]
 author: "Ayman Boulaich"
