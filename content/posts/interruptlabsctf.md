@@ -6,7 +6,7 @@ categories: ["ctf"]
 author: "Ayman Boulaich"
 showToc: false
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
 summary: "I was randomly scrolling through some research forums when I ended up on Interrupt Labs’ blog. They had this cool post about integrating IDA with Obsidian, which caught my attention. Such a random thing made me read about them and his philosophy as a VR company and quickly loved his way of doing the things."
