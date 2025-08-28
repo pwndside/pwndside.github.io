@@ -2,162 +2,162 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Privesc on PwndSide</title>
-    <link>http://localhost:1313/tags/privesc/</link>
+    <link>https://pwndside.github.io/tags/privesc/</link>
     <description>Recent content in Privesc on PwndSide</description>
     <image>
       <title>PwndSide</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 13 Sep 2023 19:26:37 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/privesc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pwndside.github.io/tags/privesc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conceal</title>
-      <link>http://localhost:1313/posts/conceal-htb/</link>
+      <link>https://pwndside.github.io/posts/conceal-htb/</link>
       <pubDate>Wed, 13 Sep 2023 19:26:37 +0200</pubDate>
-      <guid>http://localhost:1313/posts/conceal-htb/</guid>
+      <guid>https://pwndside.github.io/posts/conceal-htb/</guid>
       <description>This machine has IPSEC VPN hiding the TCP ports thanks to the password leaked by snmp we gain access to those ports. The RCE is achieved by uploading a asp file to the website via ftp. We privEsc exploiting SeImpersonatePrivilege with JuicyPotato.exe.</description>
     </item>
     <item>
       <title>Friendzone</title>
-      <link>http://localhost:1313/posts/friendzone-htb/</link>
+      <link>https://pwndside.github.io/posts/friendzone-htb/</link>
       <pubDate>Mon, 11 Sep 2023 19:13:39 +0200</pubDate>
-      <guid>http://localhost:1313/posts/friendzone-htb/</guid>
+      <guid>https://pwndside.github.io/posts/friendzone-htb/</guid>
       <description>Linux machine with a website which has LFI and thanks to be able to upload resources to the machine via smb we pwnd the user. A Library Hijacking vulnerability help us to privEsc as root.</description>
     </item>
     <item>
       <title>Bounty</title>
-      <link>http://localhost:1313/posts/bounty-htb/</link>
+      <link>https://pwndside.github.io/posts/bounty-htb/</link>
       <pubDate>Wed, 06 Sep 2023 15:27:13 +0200</pubDate>
-      <guid>http://localhost:1313/posts/bounty-htb/</guid>
+      <guid>https://pwndside.github.io/posts/bounty-htb/</guid>
       <description>Windows machine with a website which we can upload crafted web.config files in order to get RCE. We privEsc exploiting SeImpersonatePrivilege with JuicyPotato.exe.</description>
     </item>
     <item>
       <title>Irked</title>
-      <link>http://localhost:1313/posts/irked-htb/</link>
+      <link>https://pwndside.github.io/posts/irked-htb/</link>
       <pubDate>Sun, 03 Sep 2023 14:03:47 +0200</pubDate>
-      <guid>http://localhost:1313/posts/irked-htb/</guid>
+      <guid>https://pwndside.github.io/posts/irked-htb/</guid>
       <description>Linux machine with a IRC port witch a Backdoor Command Execution which gives us RCE. In this machine we need to privEsc two times one taking advantage of a hidden password on a picture and the other one executing a SUID binary which execute a script as root.</description>
     </item>
     <item>
       <title>TartarSauce</title>
-      <link>http://localhost:1313/posts/tartarsauce-htb/</link>
+      <link>https://pwndside.github.io/posts/tartarsauce-htb/</link>
       <pubDate>Sat, 02 Sep 2023 14:28:00 +0200</pubDate>
-      <guid>http://localhost:1313/posts/tartarsauce-htb/</guid>
+      <guid>https://pwndside.github.io/posts/tartarsauce-htb/</guid>
       <description>Linux machine with a website which has two CMS one of them called WordPress has a plugin with RFI. A sudoer command allow us to privEsc to onuma. Thanks to a scheduled cronjob which execute a script we are able to leak information in order to PrivEsc.</description>
     </item>
     <item>
       <title>Sunday</title>
-      <link>http://localhost:1313/posts/sunday-htb/</link>
+      <link>https://pwndside.github.io/posts/sunday-htb/</link>
       <pubDate>Fri, 01 Sep 2023 16:42:25 +0200</pubDate>
-      <guid>http://localhost:1313/posts/sunday-htb/</guid>
+      <guid>https://pwndside.github.io/posts/sunday-htb/</guid>
       <description>Linux machine which has a finger port which helps us to list users by bruteforcing. We privEsc to summy thanks to a password leak on a backup file. With a sudoers command we privEsc to root.</description>
     </item>
     <item>
       <title>Poison</title>
-      <link>http://localhost:1313/posts/poison-htb/</link>
+      <link>https://pwndside.github.io/posts/poison-htb/</link>
       <pubDate>Thu, 31 Aug 2023 17:08:15 +0200</pubDate>
-      <guid>http://localhost:1313/posts/poison-htb/</guid>
+      <guid>https://pwndside.github.io/posts/poison-htb/</guid>
       <description>Linux machine with a website which has a base64 encoded password leaked on a directory. We privEsc thanks to do a portforwarding on a VNC port.</description>
     </item>
     <item>
       <title>Grandpa</title>
-      <link>http://localhost:1313/posts/grandpa-htb/</link>
+      <link>https://pwndside.github.io/posts/grandpa-htb/</link>
       <pubDate>Wed, 30 Aug 2023 13:24:37 +0200</pubDate>
-      <guid>http://localhost:1313/posts/grandpa-htb/</guid>
+      <guid>https://pwndside.github.io/posts/grandpa-htb/</guid>
       <description>Windows machine with a website which has a buffer overflow vulnerability which allow us to get RCE. Thanks to Churrasco.exe we exploit the SeImpersonatePrivilege to privEsc.</description>
     </item>
     <item>
       <title>Valentine</title>
-      <link>http://localhost:1313/posts/valentine-htb/</link>
+      <link>https://pwndside.github.io/posts/valentine-htb/</link>
       <pubDate>Tue, 29 Aug 2023 20:29:34 +0200</pubDate>
-      <guid>http://localhost:1313/posts/valentine-htb/</guid>
+      <guid>https://pwndside.github.io/posts/valentine-htb/</guid>
       <description>Linux machine with ssh private key leak and a heartbleed vuln. We are able to privEsc thanks to a SUID tmux session file. Other way to privEsc is taking advatage of the unpatched kernel version.</description>
     </item>
     <item>
       <title>Arctic</title>
-      <link>http://localhost:1313/posts/arctic-htb/</link>
+      <link>https://pwndside.github.io/posts/arctic-htb/</link>
       <pubDate>Tue, 22 Aug 2023 22:29:45 +0200</pubDate>
-      <guid>http://localhost:1313/posts/arctic-htb/</guid>
+      <guid>https://pwndside.github.io/posts/arctic-htb/</guid>
       <description>Windows machine with a fmtp port running ColdFusion v8, thanks to a RCE vuln we have obtained access to the user. The privEsc is similar as Bastard machine taking advantage of Chimichurri.exe exploit.</description>
     </item>
     <item>
       <title>Node</title>
-      <link>http://localhost:1313/posts/node-htb/</link>
+      <link>https://pwndside.github.io/posts/node-htb/</link>
       <pubDate>Tue, 22 Aug 2023 12:14:24 +0200</pubDate>
-      <guid>http://localhost:1313/posts/node-htb/</guid>
+      <guid>https://pwndside.github.io/posts/node-htb/</guid>
       <description>Linux machine which has a website with a password leak. We gain access to the user thanks to a credentials leak. We privesc thanks to a mongoDB javascript and SUID binary exploitation.</description>
     </item>
     <item>
       <title>Sense</title>
-      <link>http://localhost:1313/posts/sense-htb/</link>
+      <link>https://pwndside.github.io/posts/sense-htb/</link>
       <pubDate>Tue, 22 Aug 2023 12:14:14 +0200</pubDate>
-      <guid>http://localhost:1313/posts/sense-htb/</guid>
+      <guid>https://pwndside.github.io/posts/sense-htb/</guid>
       <description>Linux machine with a website running pfsense which has credentials leak which help us access to the software. Thanks to a command injection we can access as root.</description>
     </item>
     <item>
       <title>Solidstate</title>
-      <link>http://localhost:1313/posts/solidstate-htb/</link>
+      <link>https://pwndside.github.io/posts/solidstate-htb/</link>
       <pubDate>Tue, 15 Aug 2023 19:04:20 +0200</pubDate>
-      <guid>http://localhost:1313/posts/solidstate-htb/</guid>
+      <guid>https://pwndside.github.io/posts/solidstate-htb/</guid>
       <description>Linux machine with three mail services and a admin tool to manage them, we take advantage of the default credentials of the tool to get email users and thanks to the credentials leak in one email we obtained access as user. We got the privesc thanks to a cronjob.</description>
     </item>
     <item>
       <title>Granny</title>
-      <link>http://localhost:1313/posts/granny-htb/</link>
+      <link>https://pwndside.github.io/posts/granny-htb/</link>
       <pubDate>Mon, 24 Jul 2023 21:17:42 +0200</pubDate>
-      <guid>http://localhost:1313/posts/granny-htb/</guid>
+      <guid>https://pwndside.github.io/posts/granny-htb/</guid>
       <description>Windows machine which has webDAV which allow us to send a reverse shell to gain RCE. We have privesc thanks to the SeImpersonatePrivilege which can be exploited with tools like churrasco or JuicyPotato.</description>
     </item>
     <item>
       <title>Bastard</title>
-      <link>http://localhost:1313/posts/bastard-htb/</link>
+      <link>https://pwndside.github.io/posts/bastard-htb/</link>
       <pubDate>Fri, 21 Jul 2023 17:19:10 +0200</pubDate>
-      <guid>http://localhost:1313/posts/bastard-htb/</guid>
+      <guid>https://pwndside.github.io/posts/bastard-htb/</guid>
       <description>Windows machine with a webpage powered by Drupal which was our first entry point thanks to CVE-2018-7600 which gives use RCE. For privesc I exploited the MS10-059 which is a unpatched kernel vulnerability.</description>
     </item>
     <item>
       <title>Sniper</title>
-      <link>http://localhost:1313/posts/sniper-htb/</link>
+      <link>https://pwndside.github.io/posts/sniper-htb/</link>
       <pubDate>Mon, 17 Jul 2023 17:25:24 +0200</pubDate>
-      <guid>http://localhost:1313/posts/sniper-htb/</guid>
+      <guid>https://pwndside.github.io/posts/sniper-htb/</guid>
       <description>Windows machine with a website which has a RFI vulnerability. The initial privilege escalation occurred due to a typical case of credential reuse. The second privesc revolved around maliciously manipulating a .chm file in order to achieve code execution with administrator privileges.</description>
     </item>
     <item>
       <title>Beep</title>
-      <link>http://localhost:1313/posts/beep-htb/</link>
+      <link>https://pwndside.github.io/posts/beep-htb/</link>
       <pubDate>Mon, 10 Jul 2023 23:51:29 +0200</pubDate>
-      <guid>http://localhost:1313/posts/beep-htb/</guid>
+      <guid>https://pwndside.github.io/posts/beep-htb/</guid>
       <description>Linux machine with a communications server software that brings IP PBX, email, IM, faxing and collaboration functionality into a single platform and a lot of ways to exploit them as well.</description>
     </item>
     <item>
       <title>Nibbles</title>
-      <link>http://localhost:1313/posts/nibbles-htb/</link>
+      <link>https://pwndside.github.io/posts/nibbles-htb/</link>
       <pubDate>Tue, 04 Jul 2023 13:02:46 +0200</pubDate>
-      <guid>http://localhost:1313/posts/nibbles-htb/</guid>
+      <guid>https://pwndside.github.io/posts/nibbles-htb/</guid>
       <description>This room is a Linux environment running a website powered by the Nibbleblog engine, and the version we are using has a shell vulnerability.</description>
     </item>
     <item>
       <title>Devel</title>
-      <link>http://localhost:1313/posts/devel-htb/</link>
+      <link>https://pwndside.github.io/posts/devel-htb/</link>
       <pubDate>Mon, 03 Jul 2023 17:35:59 +0200</pubDate>
-      <guid>http://localhost:1313/posts/devel-htb/</guid>
+      <guid>https://pwndside.github.io/posts/devel-htb/</guid>
       <description>This room is a windows room with a http service which runs iis7 web server which content is able at a misconfigured ftp service.</description>
     </item>
     <item>
       <title>Bashed</title>
-      <link>http://localhost:1313/posts/bashed-htb/</link>
+      <link>https://pwndside.github.io/posts/bashed-htb/</link>
       <pubDate>Sat, 24 Jun 2023 23:52:47 +0200</pubDate>
-      <guid>http://localhost:1313/posts/bashed-htb/</guid>
+      <guid>https://pwndside.github.io/posts/bashed-htb/</guid>
       <description>&lt;h2 id=&#34;room-information&#34;&gt;Room Information&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Room name: Bashed&lt;/li&gt;
 &lt;li&gt;Difficulty level: Easy&lt;/li&gt;
 &lt;li&gt;Room link: &lt;a href=&#34;https://app.hackthebox.com/machines/Bashed&#34;&gt;https://app.hackthebox.com/machines/Bashed&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;Untitled&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/HTB/bashed-icon.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Untitled&#34; loading=&#34;lazy&#34; src=&#34;https://pwndside.github.io/HTB/bashed-icon.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;tools-used&#34;&gt;Tools Used&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Nmap&lt;/li&gt;
@@ -165,19 +165,19 @@
 &lt;li&gt;Nikto&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;port-scanning&#34;&gt;Port Scanning&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&#34;Untitled&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/HTB/bashed-1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Untitled&#34; loading=&#34;lazy&#34; src=&#34;https://pwndside.github.io/HTB/bashed-1.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;In the port scan we can see that the only service running is a web server.&lt;/p&gt;
 &lt;h2 id=&#34;enumeration&#34;&gt;Enumeration&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&#34;Untitled&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/HTB/bashed-4.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;/Untitled&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/HTB/bashed-5.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Untitled&#34; loading=&#34;lazy&#34; src=&#34;https://pwndside.github.io/HTB/bashed-4.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;/Untitled&#34; loading=&#34;lazy&#34; src=&#34;https://pwndside.github.io/HTB/bashed-5.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;If we visit the website there are only one article with a web reverse shell information called phpbash, and a url to the github project.&lt;/p&gt;
 &lt;p&gt;In the url we can find some useful information like how works, this shell removes the necessity of do a traditional reverse shell.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Shocker</title>
-      <link>http://localhost:1313/posts/shocker-htb/</link>
+      <link>https://pwndside.github.io/posts/shocker-htb/</link>
       <pubDate>Sat, 24 Jun 2023 23:12:03 +0200</pubDate>
-      <guid>http://localhost:1313/posts/shocker-htb/</guid>
+      <guid>https://pwndside.github.io/posts/shocker-htb/</guid>
       <description>Linux machine with Shellshock bash remote code execution vulnerability.</description>
     </item>
   </channel>

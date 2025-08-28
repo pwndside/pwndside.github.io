@@ -2,120 +2,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on PwndSide</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://pwndside.github.io/tags/</link>
     <description>Recent content in Tags on PwndSide</description>
     <image>
       <title>PwndSide</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Jul 2025 19:26:52 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Aug 2025 21:23:52 +0200</lastBuildDate>
+    <atom:link href="https://pwndside.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pwn</title>
-      <link>http://localhost:1313/tags/pwn/</link>
-      <pubDate>Sun, 06 Jul 2025 19:26:52 +0200</pubDate>
-      <guid>http://localhost:1313/tags/pwn/</guid>
+      <link>https://pwndside.github.io/tags/pwn/</link>
+      <pubDate>Thu, 21 Aug 2025 21:23:52 +0200</pubDate>
+      <guid>https://pwndside.github.io/tags/pwn/</guid>
       <description></description>
     </item>
     <item>
       <title>Serialized</title>
-      <link>http://localhost:1313/tags/serialized/</link>
+      <link>https://pwndside.github.io/tags/serialized/</link>
       <pubDate>Sun, 04 Feb 2024 16:07:28 +0100</pubDate>
-      <guid>http://localhost:1313/tags/serialized/</guid>
+      <guid>https://pwndside.github.io/tags/serialized/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>http://localhost:1313/tags/web/</link>
+      <link>https://pwndside.github.io/tags/web/</link>
       <pubDate>Sun, 04 Feb 2024 16:07:28 +0100</pubDate>
-      <guid>http://localhost:1313/tags/web/</guid>
+      <guid>https://pwndside.github.io/tags/web/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>http://localhost:1313/tags/windows/</link>
+      <link>https://pwndside.github.io/tags/windows/</link>
       <pubDate>Sun, 04 Feb 2024 16:07:28 +0100</pubDate>
-      <guid>http://localhost:1313/tags/windows/</guid>
+      <guid>https://pwndside.github.io/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>Wintokens</title>
-      <link>http://localhost:1313/tags/wintokens/</link>
+      <link>https://pwndside.github.io/tags/wintokens/</link>
       <pubDate>Sun, 04 Feb 2024 16:07:28 +0100</pubDate>
-      <guid>http://localhost:1313/tags/wintokens/</guid>
+      <guid>https://pwndside.github.io/tags/wintokens/</guid>
       <description></description>
     </item>
     <item>
       <title>Ja3</title>
-      <link>http://localhost:1313/tags/ja3/</link>
+      <link>https://pwndside.github.io/tags/ja3/</link>
       <pubDate>Thu, 12 Oct 2023 19:46:31 +0200</pubDate>
-      <guid>http://localhost:1313/tags/ja3/</guid>
+      <guid>https://pwndside.github.io/tags/ja3/</guid>
       <description></description>
     </item>
     <item>
       <title>Serialization</title>
-      <link>http://localhost:1313/tags/serialization/</link>
+      <link>https://pwndside.github.io/tags/serialization/</link>
       <pubDate>Thu, 12 Oct 2023 19:46:31 +0200</pubDate>
-      <guid>http://localhost:1313/tags/serialization/</guid>
+      <guid>https://pwndside.github.io/tags/serialization/</guid>
       <description></description>
     </item>
     <item>
       <title>Ftp</title>
-      <link>http://localhost:1313/tags/ftp/</link>
+      <link>https://pwndside.github.io/tags/ftp/</link>
       <pubDate>Wed, 13 Sep 2023 19:26:37 +0200</pubDate>
-      <guid>http://localhost:1313/tags/ftp/</guid>
+      <guid>https://pwndside.github.io/tags/ftp/</guid>
       <description></description>
     </item>
     <item>
       <title>Privesc</title>
-      <link>http://localhost:1313/tags/privesc/</link>
+      <link>https://pwndside.github.io/tags/privesc/</link>
       <pubDate>Wed, 13 Sep 2023 19:26:37 +0200</pubDate>
-      <guid>http://localhost:1313/tags/privesc/</guid>
+      <guid>https://pwndside.github.io/tags/privesc/</guid>
       <description></description>
     </item>
     <item>
       <title>Snmp</title>
-      <link>http://localhost:1313/tags/snmp/</link>
+      <link>https://pwndside.github.io/tags/snmp/</link>
       <pubDate>Wed, 13 Sep 2023 19:26:37 +0200</pubDate>
-      <guid>http://localhost:1313/tags/snmp/</guid>
+      <guid>https://pwndside.github.io/tags/snmp/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
+      <link>https://pwndside.github.io/tags/linux/</link>
       <pubDate>Mon, 11 Sep 2023 19:13:39 +0200</pubDate>
-      <guid>http://localhost:1313/tags/linux/</guid>
+      <guid>https://pwndside.github.io/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Scripting</title>
-      <link>http://localhost:1313/tags/scripting/</link>
+      <link>https://pwndside.github.io/tags/scripting/</link>
       <pubDate>Sat, 02 Sep 2023 14:28:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/scripting/</guid>
+      <guid>https://pwndside.github.io/tags/scripting/</guid>
       <description></description>
     </item>
     <item>
       <title>Ssh</title>
-      <link>http://localhost:1313/tags/ssh/</link>
+      <link>https://pwndside.github.io/tags/ssh/</link>
       <pubDate>Fri, 01 Sep 2023 16:42:25 +0200</pubDate>
-      <guid>http://localhost:1313/tags/ssh/</guid>
+      <guid>https://pwndside.github.io/tags/ssh/</guid>
       <description></description>
     </item>
     <item>
       <title>Buffer Overflow</title>
-      <link>http://localhost:1313/tags/buffer-overflow/</link>
+      <link>https://pwndside.github.io/tags/buffer-overflow/</link>
       <pubDate>Wed, 30 Aug 2023 13:24:37 +0200</pubDate>
-      <guid>http://localhost:1313/tags/buffer-overflow/</guid>
+      <guid>https://pwndside.github.io/tags/buffer-overflow/</guid>
       <description></description>
     </item>
     <item>
       <title>Smb</title>
-      <link>http://localhost:1313/tags/smb/</link>
+      <link>https://pwndside.github.io/tags/smb/</link>
       <pubDate>Mon, 17 Jul 2023 17:25:24 +0200</pubDate>
-      <guid>http://localhost:1313/tags/smb/</guid>
+      <guid>https://pwndside.github.io/tags/smb/</guid>
       <description></description>
     </item>
   </channel>

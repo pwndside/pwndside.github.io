@@ -2,36 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ctf on PwndSide</title>
-    <link>http://localhost:1313/categories/ctf/</link>
+    <link>https://pwndside.github.io/categories/ctf/</link>
     <description>Recent content in Ctf on PwndSide</description>
     <image>
       <title>PwndSide</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://pwndside.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Jul 2025 19:26:52 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Aug 2025 21:23:52 +0200</lastBuildDate>
+    <atom:link href="https://pwndside.github.io/categories/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>interruptlabsCTF</title>
+      <link>https://pwndside.github.io/posts/interruptlabsctf/</link>
+      <pubDate>Thu, 21 Aug 2025 21:23:52 +0200</pubDate>
+      <guid>https://pwndside.github.io/posts/interruptlabsctf/</guid>
+      <description>I was randomly scrolling through some research forums when I ended up on Interrupt Labs’ blog. They had this cool post about integrating IDA with Obsidian, which caught my attention. Such a random thing made me read about them and his philosophy as a VR company and quickly loved his way of doing the things.</description>
+    </item>
     <item>
       <title>gpnCTF25</title>
-      <link>http://localhost:1313/posts/gpnctf25/</link>
+      <link>https://pwndside.github.io/posts/gpnctf25/</link>
       <pubDate>Sun, 06 Jul 2025 19:26:52 +0200</pubDate>
-      <guid>http://localhost:1313/posts/gpnctf25/</guid>
+      <guid>https://pwndside.github.io/posts/gpnctf25/</guid>
       <description>The past 20th of June we had the luck to play the gpnCTF which is a Jeopardy-style Capture The Flag event organized annually by KITCTF, often taking place at the GPN (Goulash Programming Night) conference and also available to play online. This year’s had a fun twist it was based on a Monopoly-style board game, treating challenges like properties to be bought.</description>
     </item>
     <item>
       <title>balsnCTF23</title>
-      <link>http://localhost:1313/posts/balsnctf23/</link>
+      <link>https://pwndside.github.io/posts/balsnctf23/</link>
       <pubDate>Thu, 12 Oct 2023 19:46:31 +0200</pubDate>
-      <guid>http://localhost:1313/posts/balsnctf23/</guid>
+      <guid>https://pwndside.github.io/posts/balsnctf23/</guid>
       <description>I have had the pleasure of participating on balsnCTF. This CTF was so funny and I have been able to learn a lot. In this writeup I am gonna write about 0FA and SaaS.</description>
     </item>
     <item>
       <title>247CTF</title>
-      <link>http://localhost:1313/posts/247ctf/</link>
+      <link>https://pwndside.github.io/posts/247ctf/</link>
       <pubDate>Thu, 28 Sep 2023 19:58:24 +0200</pubDate>
-      <guid>http://localhost:1313/posts/247ctf/</guid>
+      <guid>https://pwndside.github.io/posts/247ctf/</guid>
       <description>This is my first CTF web writeup, in this post I am going to exploit some of the web CTF’s of CTF247. CTF247 is a security Capture The Flag (CTF) learning environment. I hope you enjoy this write up as me performing the attacks.</description>
     </item>
   </channel>
